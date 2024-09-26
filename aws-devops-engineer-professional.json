@@ -19,7 +19,12 @@
     },
     {
         "question": "Interview-style: How do you ensure high availability for applications in AWS?",
-        "options": [],
+        "options": [
+            "By using multiple Availability Zones and Auto Scaling groups to distribute instances across zones.",
+            "By deploying all instances in a single Availability Zone.",
+            "By using Elastic Load Balancing only.",
+            "By not using any failover mechanisms."
+        ],
         "answer": "By using multiple Availability Zones and Auto Scaling groups to distribute instances across zones.",
         "description": "High availability is achieved by deploying applications across multiple Availability Zones."
     },
@@ -49,7 +54,12 @@
     },
     {
         "question": "Interview-style: How can you implement security in your DevOps pipeline?",
-        "options": [],
+        "options": [
+            "By integrating security checks at each stage of the CI/CD pipeline, using tools like AWS Inspector and AWS WAF.",
+            "By using AWS CloudTrail for monitoring.",
+            "By implementing IAM roles for least privilege access.",
+            "By conducting regular security audits."
+        ],
         "answer": "By integrating security checks at each stage of the CI/CD pipeline, using tools like AWS Inspector and AWS WAF.",
         "description": "Security can be integrated by using various AWS security tools and best practices."
     },
@@ -73,7 +83,12 @@
     },
     {
         "question": "Interview-style: What strategies would you use for backup and recovery in AWS?",
-        "options": [],
+        "options": [
+            "Use AWS Backup, versioning in Amazon S3, and snapshots in Amazon RDS and EC2.",
+            "Use AWS IAM roles for security, CloudTrail for monitoring, and EC2 for backups.",
+            "Use Amazon CloudFront for backups, EC2 Auto Scaling, and S3 Glacier for recovery.",
+            "Use AWS Lambda for automating recovery and EC2 for hosting backup files."
+        ],
         "answer": "Use AWS Backup, versioning in Amazon S3, and snapshots in Amazon RDS and EC2.",
         "description": "Backup and recovery strategies include using various AWS services for data protection."
     },
@@ -97,7 +112,12 @@
     },
     {
         "question": "Interview-style: How would you monitor application performance on AWS?",
-        "options": [],
+        "options": [
+            "By using Amazon CloudWatch to collect and track metrics, logs, and events.",
+            "By using AWS S3 to store performance metrics.",
+            "By using AWS EC2 to monitor instances directly.",
+            "By using AWS Lambda to automate performance checks."
+        ],        
         "answer": "By using Amazon CloudWatch to collect and track metrics, logs, and events.",
         "description": "Monitoring application performance involves using CloudWatch for insights."
     },
