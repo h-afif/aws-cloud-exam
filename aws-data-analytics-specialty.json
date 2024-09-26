@@ -43,7 +43,12 @@
     },
     {
         "question": "Interview-style: How would you optimize an Amazon Redshift cluster for performance?",
-        "options": [],
+        "options": [
+            "By configuring the right distribution style, sort keys, and using compression encodings.",
+            "By increasing the instance size and number of nodes.",
+            "By using the default settings provided by AWS.",
+            "By migrating data to Amazon S3."
+        ],
         "answer": "By configuring the right distribution style, sort keys, and using compression encodings.",
         "description": "Optimizing Amazon Redshift involves using its performance tuning features effectively."
     },
@@ -205,7 +210,7 @@
     },
     {
         "question": "Interview-style: What factors would you consider when choosing between Amazon Redshift and Amazon S3 for data storage?",
-        "options": [],
+        "options": ["Data size", "Query complexity", "Frequency of access", "Cost"],
         "answer": "Consider data size, query complexity, frequency of access, and cost.",
         "description": "Choosing between Redshift and S3 depends on use case and access patterns."
     },
