@@ -36,12 +36,6 @@
         "description": "Amazon VPC lets you create a logically isolated network in the AWS cloud."
     },
     {
-        "question": "Interview-style: How do you ensure high availability for an application deployed in AWS?",
-        "options": [],
-        "answer": "Use multiple Availability Zones and Auto Scaling to distribute traffic and ensure redundancy.",
-        "description": "High availability involves spreading resources across multiple Availability Zones."
-    },
-    {
         "question": "What does AWS Elastic Beanstalk provide?",
         "options": ["Database management", "Serverless computing", "Managed application deployment", "Content delivery"],
         "answer": "Managed application deployment",
@@ -76,12 +70,6 @@
         "options": ["AWS Auto Scaling", "Amazon CloudWatch", "AWS Lambda", "Amazon S3"],
         "answer": "AWS Auto Scaling",
         "description": "AWS Auto Scaling automatically adjusts capacity to maintain performance."
-    },
-    {
-        "question": "Interview-style: How would you handle a security incident in an AWS environment?",
-        "options": [],
-        "answer": "Follow the incident response plan, review logs with AWS CloudTrail, and contain the issue.",
-        "description": "Effective incident response involves planning, monitoring, and containment."
     },
     {
         "question": "What is AWS Direct Connect used for?",
@@ -126,12 +114,6 @@
         "description": "AWS Shield provides protection against Distributed Denial of Service (DDoS) attacks."
     },
     {
-        "question": "Interview-style: How would you implement multi-region architecture in AWS?",
-        "options": [],
-        "answer": "Deploy resources in multiple regions and use Route 53 for traffic routing and failover.",
-        "description": "Multi-region architecture increases availability and fault tolerance."
-    },
-    {
         "question": "True or False: AWS CodeDeploy is a service for automating code deployments to Amazon EC2 instances.",
         "options": ["True", "False"],
         "answer": "True",
@@ -154,12 +136,6 @@
         "options": ["Database management", "Application deployment", "Configuration management", "Data backup"],
         "answer": "Configuration management",
         "description": "AWS OpsWorks provides a configuration management service using Chef and Puppet."
-    },
-    {
-        "question": "Interview-style: How do you ensure data security in AWS?",
-        "options": [],
-        "answer": "Use IAM for access control, encrypt data at rest and in transit, and implement logging.",
-        "description": "Data security involves a combination of access management and encryption."
     },
     {
         "question": "True or False: AWS Elastic Beanstalk automatically handles the deployment, from capacity provisioning to load balancing.",
@@ -204,12 +180,6 @@
         "description": "AWS Step Functions lets you coordinate multiple AWS services into serverless workflows."
     },
     {
-        "question": "Interview-style: What steps would you take to recover from a region-wide outage?",
-        "options": [],
-        "answer": "Implement failover to another region, ensure backups are available, and use Route 53 for DNS failover.",
-        "description": "Recovery from an outage involves planning for redundancy and failover strategies."
-    },
-    {
         "question": "Which AWS service allows you to manage and analyze large datasets using SQL?",
         "options": ["Amazon RDS", "Amazon Athena", "Amazon EMR", "Amazon Redshift"],
         "answer": "Amazon Athena",
@@ -246,12 +216,6 @@
         "description": "AWS Trusted Advisor provides best practice recommendations for AWS accounts."
     },
     {
-        "question": "Interview-style: How would you implement security best practices in an AWS environment?",
-        "options": [],
-        "answer": "Use IAM for fine-grained access control, enable logging with CloudTrail, and enforce encryption for data at rest and in transit.",
-        "description": "Security best practices involve multiple layers of protection and continuous monitoring."
-    },
-    {
         "question": "True or False: Amazon RDS supports multiple database engines including MySQL, PostgreSQL, and Oracle.",
         "options": ["True", "False"],
         "answer": "True",
@@ -276,12 +240,6 @@
         "description": "Amazon EMR (Elastic MapReduce) makes it easy to process large amounts of data quickly."
     },
     {
-        "question": "Interview-style: How do you troubleshoot performance issues in an AWS application?",
-        "options": [],
-        "answer": "Check CloudWatch metrics, review application logs, and analyze resource usage for bottlenecks.",
-        "description": "Troubleshooting involves systematic checking of metrics and logs to identify performance issues."
-    },
-    {
         "question": "True or False: AWS WAF helps protect applications from common web exploits.",
         "options": ["True", "False"],
         "answer": "True",
@@ -304,12 +262,6 @@
         "options": ["High-performance computing", "Long-term data archiving", "Content delivery", "Web hosting"],
         "answer": "Long-term data archiving",
         "description": "Amazon S3 Glacier is a low-cost cloud storage service for data archiving and long-term backup."
-    },
-    {
-        "question": "Interview-style: What is your approach to manage costs in AWS?",
-        "options": [],
-        "answer": "Use AWS Budgets to set limits, monitor usage with CloudWatch, and right-size resources based on needs.",
-        "description": "Cost management involves budgeting, monitoring, and adjusting resource usage."
     },
     {
         "question": "True or False: AWS Secrets Manager is used for managing sensitive information such as API keys and passwords.",
