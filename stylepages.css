@@ -1,0 +1,327 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #CCE5FF;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+header, footer {
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    color: white;
+}
+
+footer {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Main Styles */
+#question-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: wheat;
+    border-radius: 10px;
+}
+
+#question-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+#question-section {
+    margin-bottom: 20px;
+}
+
+.question-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+/* Style for option containers */
+.option-container {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding: 10px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.option-container:hover {
+    background-color: #e0e0e0;
+}
+
+.option-container input[type="radio"] {
+    margin-right: 10px;
+}
+
+.option-container.selected {
+    background-color: #e0e0e0;
+}
+
+/* Correct Answer Style */
+.option-container.correct {
+    background-color: #d4edda; /* Light green */
+    border: 2px solid #28a745; /* Darker green border */
+}
+
+/* Wrong Answer Style */
+.option-container.incorrect {
+    background-color: #f8d7da; /* Light red */
+    border: 2px solid #dc3545; /* Darker red border */
+}
+
+/* Line between answers */
+.option-container::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Hide line for the last answer */
+.option-container:last-child::before {
+    display: none;
+}
+
+.option-label {
+    margin-left: 10px;
+}
+
+/* Results Section */
+#result {
+    display: block; /* Ensure result is visible */
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    position: relative; /* Ensure positioning context for button */
+}
+
+/* Highlight Correct Answer */
+.correct-answer {
+    color: #155724; /* Dark green text */
+    font-weight: bold;
+    background-color: #d4edda; /* Light green background */
+    padding: 2px 4px; /* Padding around the highlighted text */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Highlight Incorrect Answer */
+.incorrect-answer {
+    color: #721c24; /* Dark red text */
+    font-weight: bold;
+    background-color: #f8d7da; /* Light red background */
+    padding: 2px 4px; /* Padding around the highlighted text */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Add thicker line between answers */
+#question-review .review-question {
+    border-bottom: 3px solid #ccc; /* Increased line thickness */
+    padding-bottom: 10px; /* Space between content and line */
+    margin-bottom: 20px; /* Space between questions */
+}
+
+/* Remove the bottom border for the last question */
+#question-review .review-question:last-of-type {
+    border-bottom: none;
+}
+
+/* Ensure enough margin at the bottom of the last description */
+#question-review {
+    margin-bottom: 40px; /* Add margin at the bottom of the review section */
+}
+
+/* Button Styles */
+#home-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#home-button:hover {
+    background-color: #0056b3;
+}
+
+.retake-btn {
+    display: block;
+    margin: 10px auto; /* Adjust top margin for spacing */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute; /* Position button absolutely within #result */
+    top: 20px; /* Adjust top position as needed */
+    left: 50%;
+    transform: translateX(-50%); /* Center button horizontally */
+}
+
+.retake-btn:hover {
+    background-color: #0056b3;
+}
+
+#results-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#results-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.result-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.result-item:last-child {
+    border-bottom: none;
+}
+
+.result-item p {
+    margin: 5px 0;
+}
+
+.result-item strong {
+    font-weight: bold;
+}
+
+.result-item.red {
+    color: red;
+}
+
+.result-item.green {
+    color: green;
+}
+
+button.retake-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+button.retake-btn:hover {
+    background-color: #0056b3;
+}
+
+.highlight-green {
+    background-color: lightgreen; /* Change this color as needed */
+    font-weight: bold;
+    padding: 5px;
+}
+
+.highlight-red {
+    background-color: lightcoral; /* Change this color as needed */
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #result {
+        padding: 15px; /* Adjust padding for result section */
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align items */
+        width: 100%; /* Ensure it takes full width */
+        box-sizing: border-box; /* Include padding in width */
+    }
+
+    #result h2 {
+        margin-bottom: 10px; /* Space between title and buttons */
+        text-align: center; /* Center the title */
+    }
+
+    button {
+        padding: 10px; /* Consistent padding for buttons */
+        font-size: 16px; /* Font size for buttons */
+        width: 100%; /* Full width for buttons */
+        max-width: 300px; /* Prevent buttons from being too wide */
+        margin: 20px 0; /* Increased space between buttons */
+    }
+
+    footer {
+        padding: 10px; /* Ensure footer has enough padding */
+        font-size: 14px; /* Adjust font size for footer */
+    }
+
+}
+
+@media (max-width: 480px) {
+    #result h2 {
+        margin-bottom: 8px; /* Smaller space for mobile */
+    }
+
+    button {
+        padding: 10px; /* Consistent padding for mobile */
+        font-size: 14px; /* Smaller font size */
+        width: 100%; /* Full width for buttons */
+        max-width: 280px; /* Slightly smaller max width for mobile */
+        margin: 20px 0; /* Increased space between buttons */
+    }
+
+    footer {
+        font-size: 12px; /* Smaller font size for mobile */
+        padding: 8px; /* Reduced padding for footer */
+    }
+}
