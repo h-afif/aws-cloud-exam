@@ -280,7 +280,7 @@
     },
     {
         "question": "Interview-style: How would you optimize costs in a cloud environment?",
-        "options": [],
+        "options": ["By using AWS Cost Explorer to analyze spending", "By over-provisioning resources", "By using Reserved Instances", "By not monitoring expenses"],
         "answer": "By using AWS Cost Explorer to analyze spending, right-sizing instances, and using Reserved Instances.",
         "description": "Cost optimization strategies help manage cloud expenses efficiently."
     },
@@ -304,7 +304,7 @@
     },
     {
         "question": "Interview-style: How would you ensure compliance in a DevOps environment?",
-        "options": [],
+        "options": ["By implementing AWS Config rules and conducting regular audits using AWS CloudTrail", "By relying on manual checks", "By using third-party tools only", "By ignoring compliance regulations"],
         "answer": "By implementing AWS Config rules and conducting regular audits using AWS CloudTrail.",
         "description": "Ensuring compliance involves monitoring configurations and user actions."
     },
@@ -328,7 +328,7 @@
     },
     {
         "question": "Interview-style: How do you implement logging and monitoring in AWS?",
-        "options": [],
+        "options": ["By using Amazon S3 for data storage", "By using AWS Lambda for processing", "By using Amazon CloudWatch for metrics and logs, and AWS CloudTrail for auditing API calls", "By using Amazon RDS for database management"],
         "answer": "By using Amazon CloudWatch for metrics and logs, and AWS CloudTrail for auditing API calls.",
         "description": "Logging and monitoring are essential for maintaining operational visibility."
     },
@@ -352,7 +352,7 @@
     },
     {
         "question": "Interview-style: How would you ensure data durability in AWS?",
-        "options": [],
+        "options": ["By using Amazon S3 with versioning", "By implementing data encryption", "By using Amazon S3 with versioning and cross-region replication to protect against data loss", "By regularly backing up data to EBS"],
         "answer": "By using Amazon S3 with versioning and cross-region replication to protect against data loss.",
         "description": "Data durability is crucial for ensuring long-term data retention."
     },
@@ -376,7 +376,7 @@
     },
     {
         "question": "Interview-style: How can you ensure application security in AWS?",
-        "options": [],
+        "options": ["By using AWS security services like AWS WAF, AWS Shield, and implementing IAM policies.", "By relying solely on security groups.", "By using public subnets for application hosting.", "By implementing SSL certificates on all endpoints."],
         "answer": "By using AWS security services like AWS WAF, AWS Shield, and implementing IAM policies.",
         "description": "Application security is vital for protecting data and services."
     },
@@ -400,8 +400,8 @@
     },
     {
         "question": "Interview-style: How do you implement CI/CD in AWS?",
-        "options": [],
-        "answer": "By using AWS CodePipeline, AWS CodeBuild, and AWS CodeDeploy for continuous integration and deployment.",
+        "options": ["Using AWS Lambda and Amazon S3", "By using AWS CodePipeline, AWS CodeBuild, and AWS CodeDeploy", "Manually deploying code updates", "Using AWS CloudFormation"],
+        "answer": "By using AWS CodePipeline, AWS CodeBuild, and AWS CodeDeploy",
         "description": "CI/CD practices help in automating software delivery."
     },
     {
@@ -424,7 +424,7 @@
     },
     {
         "question": "Interview-style: How would you handle scaling applications in AWS?",
-        "options": [],
+        "options": ["By using manual scaling of EC2 instances", "By utilizing Auto Scaling groups and load balancers", "By restricting access to resources", "By deploying to a single Availability Zone"],
         "answer": "By utilizing Auto Scaling groups and load balancers to automatically adjust capacity.",
         "description": "Handling scaling ensures that applications can meet demand without interruption."
     },
@@ -448,7 +448,7 @@
     },
     {
         "question": "Interview-style: How do you implement backups in AWS?",
-        "options": [],
+        "options": ["By using Amazon RDS snapshots", "By using Amazon S3 for backups, AWS Backup for centralized management, and enabling versioning", "By manually copying data to an external hard drive", "By using AWS CloudFormation"],
         "answer": "By using Amazon S3 for backups, AWS Backup for centralized management, and enabling versioning.",
         "description": "Implementing backups is essential for data protection and recovery."
     },
@@ -472,8 +472,8 @@
     },
     {
         "question": "Interview-style: How can you improve application performance in AWS?",
-        "options": [],
-        "answer": "By using Amazon CloudFront for content delivery and Amazon RDS for database optimization.",
+        "options": ["By using Amazon CloudFront for content delivery and Amazon RDS for database optimization", "By hosting everything on a single EC2 instance", "By using Amazon S3 for database storage", "By implementing manual scaling instead of Auto Scaling"],
+        "answer": "By using Amazon CloudFront for content delivery and Amazon RDS for database optimization",
         "description": "Improving performance ensures better user experience and responsiveness."
     },
     {
@@ -496,8 +496,8 @@
     },
     {
         "question": "Interview-style: How do you manage infrastructure as code?",
-        "options": [],
-        "answer": "By using AWS CloudFormation or AWS CDK to define and provision infrastructure through code.",
+        "options": ["By using AWS CloudFormation or AWS CDK", "Manually configuring resources through the AWS Management Console", "Using AWS CLI commands only", "Relying on third-party tools without automation"],
+        "answer": "By using AWS CloudFormation or AWS CDK",
         "description": "Infrastructure as code improves consistency and reduces manual efforts."
     },
     {
