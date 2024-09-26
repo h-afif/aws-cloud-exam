@@ -1,0 +1,284 @@
+[
+    {
+        "question": "What is AWS Glue?",
+        "options": ["A data lake service", "An ETL service", "A data warehouse", "A machine learning service"],
+        "answer": "An ETL service",
+        "description": "AWS Glue is a fully managed ETL (extract, transform, load) service."
+    },
+    {
+        "question": "Fill in the blank: _________ is a fully managed, petabyte-scale data warehouse service in AWS.",
+        "options": ["Amazon RDS", "Amazon Redshift", "Amazon DynamoDB", "Amazon S3"],
+        "answer": "Amazon Redshift",
+        "description": "Amazon Redshift is designed for large-scale data storage and analytics."
+    },
+    {
+        "question": "Which AWS service is designed for real-time data streaming?",
+        "options": ["AWS Glue", "Amazon Kinesis", "Amazon Athena", "Amazon S3"],
+        "answer": "Amazon Kinesis",
+        "description": "Amazon Kinesis allows you to process and analyze real-time streaming data."
+    },
+    {
+        "question": "True or False: Amazon Athena allows you to query data stored in S3 using SQL without the need for any ETL processes.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "Amazon Athena enables users to perform SQL queries directly on data stored in S3."
+    },
+    {
+        "question": "What service would you use to create a data lake on AWS?",
+        "options": ["Amazon RDS", "AWS Lake Formation", "Amazon EC2", "Amazon DynamoDB"],
+        "answer": "AWS Lake Formation",
+        "description": "AWS Lake Formation simplifies the setup of a secure data lake."
+    },
+    {
+        "question": "Fill in the blank: _________ is the AWS service that provides interactive queries for S3 data.",
+        "options": ["Amazon Redshift", "Amazon Athena", "Amazon EMR", "AWS Glue"],
+        "answer": "Amazon Athena",
+        "description": "Amazon Athena is an interactive query service that makes it easy to analyze data in S3."
+    },
+    {
+        "question": "Which AWS service can be used for batch processing of big data?",
+        "options": ["Amazon RDS", "Amazon EMR", "AWS Lambda", "Amazon Kinesis"],
+        "answer": "Amazon EMR",
+        "description": "Amazon EMR (Elastic MapReduce) is designed for processing large amounts of data."
+    },
+    {
+        "question": "Interview-style: How would you optimize an Amazon Redshift cluster for performance?",
+        "options": [],
+        "answer": "By configuring the right distribution style, sort keys, and using compression encodings.",
+        "description": "Optimizing Amazon Redshift involves using its performance tuning features effectively."
+    },
+    {
+        "question": "Which service provides a managed Apache Spark environment?",
+        "options": ["Amazon Redshift", "AWS Glue", "Amazon EMR", "AWS Lambda"],
+        "answer": "Amazon EMR",
+        "description": "Amazon EMR allows you to run big data frameworks like Apache Spark."
+    },
+    {
+        "question": "Fill in the blank: _________ is an AWS service for building and deploying machine learning models.",
+        "options": ["Amazon SageMaker", "AWS Lambda", "Amazon Redshift", "Amazon Kinesis"],
+        "answer": "Amazon SageMaker",
+        "description": "Amazon SageMaker provides tools to build, train, and deploy machine learning models."
+    },
+    {
+        "question": "True or False: AWS Glue is a serverless ETL service that automatically discovers and catalogs your data.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Glue is indeed serverless and automates data discovery and cataloging."
+    },
+    {
+        "question": "What is the primary use of Amazon QuickSight?",
+        "options": ["Data storage", "Data analysis", "Business intelligence", "Data streaming"],
+        "answer": "Business intelligence",
+        "description": "Amazon QuickSight is used for business intelligence and data visualization."
+    },
+    {
+        "question": "Fill in the blank: _________ is used to create and manage workflows for ETL in AWS.",
+        "options": ["AWS Glue", "Amazon Redshift", "AWS Lambda", "Amazon Kinesis"],
+        "answer": "AWS Glue",
+        "description": "AWS Glue allows you to create, run, and monitor ETL workflows."
+    },
+    {
+        "question": "Which AWS service is suitable for storing semi-structured data?",
+        "options": ["Amazon RDS", "Amazon S3", "Amazon DynamoDB", "Amazon Redshift"],
+        "answer": "Amazon S3",
+        "description": "Amazon S3 is ideal for storing various types of data, including semi-structured data."
+    },
+    {
+        "question": "True or False: Amazon RDS can be used for big data analytics.",
+        "options": ["True", "False"],
+        "answer": "False",
+        "description": "Amazon RDS is not optimized for big data; it is primarily for relational databases."
+    },
+    {
+        "question": "Fill in the blank: _________ is the process of converting raw data into meaningful insights.",
+        "options": ["Data storage", "Data warehousing", "Data processing", "Data analytics"],
+        "answer": "Data analytics",
+        "description": "Data analytics involves analyzing data to derive insights."
+    },
+    {
+        "question": "What service allows you to run queries on data stored in a data lake?",
+        "options": ["Amazon RDS", "Amazon Redshift", "Amazon Athena", "Amazon Kinesis"],
+        "answer": "Amazon Athena",
+        "description": "Amazon Athena lets you run SQL queries on data in S3."
+    },
+    {
+        "question": "Fill in the blank: _________ enables users to analyze data in a serverless way without needing to manage infrastructure.",
+        "options": ["Amazon RDS", "Amazon EMR", "AWS Lambda", "Amazon Athena"],
+        "answer": "Amazon Athena",
+        "description": "Amazon Athena is a serverless query service for analyzing data in S3."
+    },
+    {
+        "question": "What is the primary function of AWS Data Pipeline?",
+        "options": ["Data storage", "Data transformation", "Data orchestration", "Data analysis"],
+        "answer": "Data orchestration",
+        "description": "AWS Data Pipeline helps to orchestrate data movement and transformation."
+    },
+    {
+        "question": "Fill in the blank: _________ is a platform for creating data lakes on AWS.",
+        "options": ["AWS Data Pipeline", "AWS Lake Formation", "Amazon Redshift", "Amazon RDS"],
+        "answer": "AWS Lake Formation",
+        "description": "AWS Lake Formation simplifies setting up a secure data lake."
+    },
+    {
+        "question": "True or False: AWS Glue can automatically generate ETL code for you.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Glue can indeed generate ETL code automatically."
+    },
+    {
+        "question": "What is Amazon Kinesis used for?",
+        "options": ["Data storage", "Real-time data processing", "Data visualization", "Data warehousing"],
+        "answer": "Real-time data processing",
+        "description": "Amazon Kinesis is designed for processing real-time data streams."
+    },
+    {
+        "question": "Fill in the blank: _________ provides a managed service to analyze large datasets using Hadoop.",
+        "options": ["Amazon RDS", "AWS EMR", "Amazon QuickSight", "AWS Lambda"],
+        "answer": "AWS EMR",
+        "description": "AWS EMR (Elastic MapReduce) provides a managed Hadoop environment."
+    },
+    {
+        "question": "What is the purpose of AWS DataBrew?",
+        "options": ["Data analytics", "Data visualization", "Data wrangling", "Data storage"],
+        "answer": "Data wrangling",
+        "description": "AWS DataBrew is used for data preparation and wrangling."
+    },
+    {
+        "question": "Fill in the blank: _________ is an AWS service that allows you to build and deploy machine learning models quickly.",
+        "options": ["Amazon Sagemaker", "AWS Glue", "Amazon RDS", "Amazon Redshift"],
+        "answer": "Amazon Sagemaker",
+        "description": "Amazon Sagemaker is designed for building and deploying ML models."
+    },
+    {
+        "question": "Which service provides a fully managed Apache Spark environment?",
+        "options": ["AWS Glue", "Amazon EMR", "Amazon Kinesis", "Amazon RDS"],
+        "answer": "Amazon EMR",
+        "description": "Amazon EMR provides a managed environment for Apache Spark."
+    },
+    {
+        "question": "True or False: AWS Lake Formation allows you to define permissions for your data lake resources.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Lake Formation enables you to set fine-grained permissions for data access."
+    },
+    {
+        "question": "What is the function of AWS Step Functions in data analytics?",
+        "options": ["Data storage", "Workflow orchestration", "Data streaming", "Data visualization"],
+        "answer": "Workflow orchestration",
+        "description": "AWS Step Functions helps coordinate the components of distributed applications."
+    },
+    {
+        "question": "Fill in the blank: _________ is a fully managed data warehouse that can scale to petabytes of data.",
+        "options": ["Amazon RDS", "Amazon Redshift", "AWS Glue", "Amazon EMR"],
+        "answer": "Amazon Redshift",
+        "description": "Amazon Redshift is designed for scalable data warehousing."
+    },
+    {
+        "question": "What is the main advantage of using Amazon Redshift Spectrum?",
+        "options": ["Query data directly in S3", "Faster queries", "More storage", "Reduced costs"],
+        "answer": "Query data directly in S3",
+        "description": "Amazon Redshift Spectrum allows you to query data in S3 without loading it into Redshift."
+    },
+    {
+        "question": "Fill in the blank: _________ is a tool for visualizing data and creating reports in AWS.",
+        "options": ["AWS Glue", "Amazon QuickSight", "Amazon EMR", "Amazon Kinesis"],
+        "answer": "Amazon QuickSight",
+        "description": "Amazon QuickSight enables users to visualize data and create dashboards."
+    },
+    {
+        "question": "True or False: Amazon S3 can be used for both data storage and data analytics.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "Amazon S3 is versatile and supports both storage and analytics use cases."
+    },
+    {
+        "question": "What AWS service is ideal for performing data transformations on large datasets?",
+        "options": ["Amazon RDS", "AWS Glue", "Amazon Kinesis", "Amazon EMR"],
+        "answer": "AWS Glue",
+        "description": "AWS Glue provides serverless data transformation capabilities."
+    },
+    {
+        "question": "Fill in the blank: _________ is a data warehousing solution that enables fast SQL queries.",
+        "options": ["Amazon DynamoDB", "Amazon Redshift", "Amazon S3", "AWS Lambda"],
+        "answer": "Amazon Redshift",
+        "description": "Amazon Redshift is optimized for fast SQL querying on large datasets."
+    },
+    {
+        "question": "Interview-style: What factors would you consider when choosing between Amazon Redshift and Amazon S3 for data storage?",
+        "options": [],
+        "answer": "Consider data size, query complexity, frequency of access, and cost.",
+        "description": "Choosing between Redshift and S3 depends on use case and access patterns."
+    },
+    {
+        "question": "What is Amazon Athena primarily used for?",
+        "options": ["Batch processing", "Data warehousing", "Ad-hoc querying", "Data visualization"],
+        "answer": "Ad-hoc querying",
+        "description": "Amazon Athena is used for ad-hoc querying of data in S3."
+    },
+    {
+        "question": "Fill in the blank: _________ is the AWS service that automates the process of data discovery.",
+        "options": ["AWS Glue", "Amazon EMR", "Amazon Redshift", "AWS Data Pipeline"],
+        "answer": "AWS Glue",
+        "description": "AWS Glue automates data discovery and cataloging processes."
+    },
+    {
+        "question": "Which AWS service can provide serverless event-driven architecture?",
+        "options": ["Amazon Kinesis", "AWS Lambda", "AWS Glue", "Amazon Redshift"],
+        "answer": "AWS Lambda",
+        "description": "AWS Lambda is used for serverless compute and event-driven processing."
+    },
+    {
+        "question": "Fill in the blank: _________ is the AWS service for managing data lakes, permissions, and governance.",
+        "options": ["AWS Glue", "AWS Lake Formation", "Amazon Athena", "Amazon Redshift"],
+        "answer": "AWS Lake Formation",
+        "description": "AWS Lake Formation simplifies the management of data lakes."
+    },
+    {
+        "question": "True or False: Amazon EMR can run on EC2 instances, and you pay for the underlying EC2 resources.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "Amazon EMR operates on EC2 instances, and costs are associated with EC2 usage."
+    },
+    {
+        "question": "What service would you use to visualize large datasets in AWS?",
+        "options": ["Amazon S3", "Amazon QuickSight", "AWS Glue", "Amazon RDS"],
+        "answer": "Amazon QuickSight",
+        "description": "Amazon QuickSight is designed for visualizing and reporting on data."
+    },
+    {
+        "question": "Fill in the blank: _________ is a serverless service for running data pipelines in AWS.",
+        "options": ["AWS Glue", "Amazon EMR", "AWS Lambda", "Amazon Kinesis"],
+        "answer": "AWS Glue",
+        "description": "AWS Glue is a serverless ETL service for data pipelines."
+    },
+    {
+        "question": "What AWS service helps manage the data lifecycle in data lakes?",
+        "options": ["AWS Lake Formation", "Amazon S3", "Amazon Kinesis", "Amazon Redshift"],
+        "answer": "AWS Lake Formation",
+        "description": "AWS Lake Formation helps manage data lakes and their lifecycles."
+    },
+    {
+        "question": "Fill in the blank: _________ is a managed service that allows for the ingestion of streaming data.",
+        "options": ["Amazon S3", "Amazon Kinesis", "AWS Glue", "Amazon EMR"],
+        "answer": "Amazon Kinesis",
+        "description": "Amazon Kinesis allows for real-time ingestion and processing of streaming data."
+    },
+    {
+        "question": "True or False: Amazon Redshift can only store structured data.",
+        "options": ["True", "False"],
+        "answer": "False",
+        "description": "Amazon Redshift can also work with semi-structured data formats like JSON."
+    },
+    {
+        "question": "What is the primary function of AWS CloudTrail in data analytics?",
+        "options": ["Data storage", "Monitoring API calls", "Data visualization", "Data processing"],
+        "answer": "Monitoring API calls",
+        "description": "AWS CloudTrail logs and monitors API calls made in your AWS account."
+    },
+    {
+        "question": "Fill in the blank: _________ is the AWS service for executing ETL jobs.",
+        "options": ["AWS Glue", "Amazon RDS", "Amazon EMR", "Amazon S3"],
+        "answer": "AWS Glue",
+        "description": "AWS Glue is specifically designed to execute ETL jobs."
+    }
+]

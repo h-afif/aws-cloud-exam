@@ -1,0 +1,638 @@
+[
+    {
+        "question": "Which AWS service is primarily used for private connectivity between AWS and on-premises environments?",
+        "options": ["AWS Direct Connect", "AWS VPN", "AWS Transit Gateway", "AWS VPC Peering"],
+        "answer": "AWS Direct Connect",
+        "description": "AWS Direct Connect allows you to establish a dedicated network connection from your premises to AWS."
+    },
+    {
+        "question": "Fill in the blank: _________ is used to control the flow of traffic into and out of an AWS VPC.",
+        "options": ["VPC Security Groups", "Network ACLs", "AWS Firewall Manager", "AWS Shield"],
+        "answer": "Network ACLs",
+        "description": "Network ACLs act as a firewall for controlling traffic in and out of subnets."
+    },
+    {
+        "question": "True or False: AWS Transit Gateway allows for inter-VPC communication without requiring VPC peering.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Transit Gateway simplifies network architecture by allowing communication between multiple VPCs."
+    },
+    {
+        "question": "What service provides centralized management for AWS resources across multiple accounts?",
+        "options": ["AWS Organizations", "AWS Control Tower", "AWS Config", "AWS CloudFormation"],
+        "answer": "AWS Organizations",
+        "description": "AWS Organizations allows you to manage multiple AWS accounts and apply policies."
+    },
+    {
+        "question": "Which of the following AWS services is used to create a global content delivery network?",
+        "options": ["Amazon CloudFront", "Amazon S3", "AWS Global Accelerator", "AWS Direct Connect"],
+        "answer": "Amazon CloudFront",
+        "description": "Amazon CloudFront is a fast content delivery network service for delivering data globally."
+    },
+    {
+        "question": "Fill in the blank: _________ is the service that allows you to define policies for controlling access to AWS resources.",
+        "options": ["AWS IAM", "AWS Organizations", "AWS Shield", "AWS Config"],
+        "answer": "AWS IAM",
+        "description": "AWS Identity and Access Management (IAM) enables you to manage user permissions and access."
+    },
+    {
+        "question": "Which AWS service helps to protect against DDoS attacks?",
+        "options": ["AWS Shield", "AWS WAF", "AWS Config", "AWS GuardDuty"],
+        "answer": "AWS Shield",
+        "description": "AWS Shield provides DDoS protection for applications running on AWS."
+    },
+    {
+        "question": "What is the purpose of AWS Route 53?",
+        "options": ["Domain registration and DNS routing", "Load balancing", "Monitoring services", "Network security"],
+        "answer": "Domain registration and DNS routing",
+        "description": "AWS Route 53 is a scalable domain name system (DNS) web service."
+    },
+    {
+        "question": "True or False: AWS Global Accelerator provides static IP addresses that can be used to route traffic to your applications.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Global Accelerator uses static IP addresses to route traffic to optimal endpoints."
+    },
+    {
+        "question": "Which of the following services can be used to monitor network traffic in real-time?",
+        "options": ["AWS CloudTrail", "AWS CloudWatch", "AWS VPC Flow Logs", "AWS Config"],
+        "answer": "AWS VPC Flow Logs",
+        "description": "VPC Flow Logs capture information about the IP traffic going to and from network interfaces in your VPC."
+    },
+    {
+        "question": "Fill in the blank: _________ is a service that simplifies the setup of a secure VPN connection between AWS and your on-premises network.",
+        "options": ["AWS Site-to-Site VPN", "AWS Client VPN", "AWS Transit Gateway", "AWS Direct Connect"],
+        "answer": "AWS Site-to-Site VPN",
+        "description": "AWS Site-to-Site VPN allows you to connect your on-premises network to an AWS VPC."
+    },
+    {
+        "question": "Which AWS service allows for secure connections to AWS resources from remote clients?",
+        "options": ["AWS Site-to-Site VPN", "AWS Direct Connect", "AWS Client VPN", "AWS Transit Gateway"],
+        "answer": "AWS Client VPN",
+        "description": "AWS Client VPN enables users to securely access AWS resources from anywhere."
+    },
+    {
+        "question": "True or False: VPC Peering allows you to connect multiple VPCs in the same region only.",
+        "options": ["True", "False"],
+        "answer": "False",
+        "description": "VPC Peering can connect VPCs across different regions as well as within the same region."
+    },
+    {
+        "question": "Which protocol is primarily used for sending and receiving log data over a network?",
+        "options": ["HTTP", "FTP", "Syslog", "SMTP"],
+        "answer": "Syslog",
+        "description": "Syslog is a standard for message logging used in network devices."
+    },
+    {
+        "question": "Fill in the blank: _________ allows you to automate the management of AWS resources by defining a set of rules.",
+        "options": ["AWS Config", "AWS CloudFormation", "AWS Lambda", "AWS OpsWorks"],
+        "answer": "AWS Config",
+        "description": "AWS Config tracks AWS resource configurations and changes over time."
+    },
+    {
+        "question": "Which AWS service is used to monitor application performance and availability?",
+        "options": ["AWS CloudTrail", "AWS CloudWatch", "AWS X-Ray", "AWS Config"],
+        "answer": "AWS CloudWatch",
+        "description": "AWS CloudWatch is a monitoring and observability service for AWS resources."
+    },
+    {
+        "question": "True or False: AWS Config can be used to manage resource configuration changes and compliance.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Config provides capabilities for tracking configuration changes and compliance."
+    },
+    {
+        "question": "Which AWS service helps optimize network performance by routing traffic through AWS's global network?",
+        "options": ["AWS Global Accelerator", "AWS CloudFront", "AWS Direct Connect", "AWS VPN"],
+        "answer": "AWS Global Accelerator",
+        "description": "AWS Global Accelerator improves the availability and performance of your applications."
+    },
+    {
+        "question": "Fill in the blank: _________ is a fully managed service that enables the creation of private connections between VPCs and on-premises data centers.",
+        "options": ["AWS Direct Connect", "AWS VPN", "AWS Transit Gateway", "AWS PrivateLink"],
+        "answer": "AWS Direct Connect",
+        "description": "AWS Direct Connect allows for dedicated network connections between AWS and your data center."
+    },
+    {
+        "question": "Which service provides a managed solution for securely sharing data between AWS services without using public IPs?",
+        "options": ["AWS PrivateLink", "AWS VPC Peering", "AWS Transit Gateway", "AWS Direct Connect"],
+        "answer": "AWS PrivateLink",
+        "description": "AWS PrivateLink enables private connectivity between VPCs and AWS services."
+    },
+    {
+        "question": "True or False: AWS Shield provides protection only against application layer DDoS attacks.",
+        "options": ["True", "False"],
+        "answer": "False",
+        "description": "AWS Shield provides protection against both network and application layer DDoS attacks."
+    },
+    {
+        "question": "Which service would you use to connect multiple AWS accounts and manage their permissions centrally?",
+        "options": ["AWS IAM", "AWS Organizations", "AWS SSO", "AWS Control Tower"],
+        "answer": "AWS Organizations",
+        "description": "AWS Organizations helps manage multiple AWS accounts and centralizes billing."
+    },
+    {
+        "question": "Fill in the blank: _________ is the service that helps manage AWS resources as code.",
+        "options": ["AWS CloudFormation", "AWS Config", "AWS Systems Manager", "AWS OpsWorks"],
+        "answer": "AWS CloudFormation",
+        "description": "AWS CloudFormation allows you to model and set up your AWS resources using templates."
+    },
+    {
+        "question": "Which AWS service allows you to build a private API that can be accessed from your VPC?",
+        "options": ["AWS API Gateway", "AWS PrivateLink", "AWS App Mesh", "AWS Lambda"],
+        "answer": "AWS PrivateLink",
+        "description": "AWS PrivateLink provides private connectivity to services hosted in AWS."
+    },
+    {
+        "question": "True or False: Network Load Balancers operate at Layer 7 of the OSI model.",
+        "options": ["True", "False"],
+        "answer": "False",
+        "description": "Network Load Balancers operate at Layer 4 of the OSI model."
+    },
+    {
+        "question": "What feature allows AWS to provide automatic failover in a multi-Region setup?",
+        "options": ["Route 53 Health Checks", "AWS CloudTrail", "AWS Config", "Amazon S3 Versioning"],
+        "answer": "Route 53 Health Checks",
+        "description": "Route 53 Health Checks monitor the health of your resources and route traffic accordingly."
+    },
+    {
+        "question": "Fill in the blank: _________ allows you to specify the VPC endpoint for your API Gateway.",
+        "options": ["AWS PrivateLink", "AWS VPC Peering", "AWS Transit Gateway", "AWS Direct Connect"],
+        "answer": "AWS PrivateLink",
+        "description": "AWS PrivateLink allows API Gateway to connect securely to services within a VPC."
+    },
+    {
+        "question": "Which service provides a managed DNS service that can be integrated with Route 53?",
+        "options": ["Amazon CloudFront", "AWS Global Accelerator", "AWS Direct Connect", "AWS Certificate Manager"],
+        "answer": "AWS Global Accelerator",
+        "description": "AWS Global Accelerator works with Route 53 to route traffic globally."
+    },
+    {
+        "question": "True or False: AWS Direct Connect can only be used with a single AWS Region.",
+        "options": ["True", "False"],
+        "answer": "False",
+        "description": "AWS Direct Connect can be configured to connect to multiple AWS Regions."
+    },
+    {
+        "question": "Which service is used for real-time network monitoring and threat detection?",
+        "options": ["AWS GuardDuty", "AWS Inspector", "AWS Config", "AWS CloudTrail"],
+        "answer": "AWS GuardDuty",
+        "description": "AWS GuardDuty is a threat detection service that continuously monitors for malicious activity."
+    },
+    {
+        "question": "Fill in the blank: _________ is a service that allows you to manage and deploy AWS resources using code.",
+        "options": ["AWS CloudFormation", "AWS Config", "AWS Systems Manager", "AWS Elastic Beanstalk"],
+        "answer": "AWS CloudFormation",
+        "description": "AWS CloudFormation enables you to create and manage AWS resources using templates."
+    },
+    {
+        "question": "Which of the following is used to secure data in transit between AWS and your on-premises network?",
+        "options": ["AWS VPN", "AWS Direct Connect", "AWS PrivateLink", "AWS Transit Gateway"],
+        "answer": "AWS VPN",
+        "description": "AWS VPN provides secure connections between your on-premises network and AWS."
+    },
+    {
+        "question": "True or False: You can configure AWS WAF to block requests based on geographic location.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS WAF allows you to define rules to block requests based on geographic location."
+    },
+    {
+        "question": "Which AWS service allows you to inspect and monitor network traffic to and from your VPCs?",
+        "options": ["AWS Config", "AWS CloudWatch", "AWS VPC Flow Logs", "AWS Shield"],
+        "answer": "AWS VPC Flow Logs",
+        "description": "AWS VPC Flow Logs allows you to capture and log network traffic data for analysis."
+    },
+    {
+        "question": "Fill in the blank: _________ is the AWS service that provides high availability and scalability for load balancers.",
+        "options": ["AWS Elastic Load Balancing", "AWS Auto Scaling", "AWS Route 53", "AWS Direct Connect"],
+        "answer": "AWS Elastic Load Balancing",
+        "description": "AWS Elastic Load Balancing automatically distributes incoming application traffic across multiple targets."
+    },
+    {
+        "question": "Which AWS service helps in managing traffic to multiple applications running in different AWS accounts?",
+        "options": ["AWS Transit Gateway", "AWS VPC Peering", "AWS Client VPN", "AWS Direct Connect"],
+        "answer": "AWS Transit Gateway",
+        "description": "AWS Transit Gateway enables the management of traffic across multiple AWS accounts and VPCs."
+    },
+    {
+        "question": "True or False: AWS Network Firewall is a fully managed, stateful network firewall service.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Network Firewall is a managed service that provides stateful inspection of network traffic."
+    },
+    {
+        "question": "Which service provides a way to manage access to your AWS resources based on tags?",
+        "options": ["AWS IAM", "AWS Organizations", "AWS Control Tower", "AWS Config"],
+        "answer": "AWS IAM",
+        "description": "AWS IAM allows you to manage user permissions based on tags associated with resources."
+    },
+    {
+        "question": "Fill in the blank: _________ is a service that allows you to automate the setup and management of a VPN connection between AWS and your data center.",
+        "options": ["AWS Site-to-Site VPN", "AWS Client VPN", "AWS Direct Connect", "AWS Transit Gateway"],
+        "answer": "AWS Site-to-Site VPN",
+        "description": "AWS Site-to-Site VPN provides a secure connection between your AWS VPC and on-premises network."
+    },
+    {
+        "question": "Which AWS service provides a way to connect your VPC to supported AWS services privately?",
+        "options": ["AWS PrivateLink", "AWS Transit Gateway", "AWS Direct Connect", "AWS VPN"],
+        "answer": "AWS PrivateLink",
+        "description": "AWS PrivateLink enables private connectivity to services hosted in AWS without using public IPs."
+    },
+    {
+        "question": "True or False: Amazon S3 supports data encryption at rest and in transit.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "Amazon S3 supports both encryption at rest and encryption in transit to secure data."
+    },
+    {
+        "question": "Which service helps you secure your APIs by allowing you to define access policies?",
+        "options": ["AWS IAM", "AWS WAF", "AWS API Gateway", "AWS Shield"],
+        "answer": "AWS API Gateway",
+        "description": "AWS API Gateway allows you to create, publish, maintain, and secure APIs."
+    },
+    {
+        "question": "Fill in the blank: _________ is a service that can be used to monitor compliance with specified rules in your AWS environment.",
+        "options": ["AWS Config", "AWS CloudTrail", "AWS CloudWatch", "AWS Inspector"],
+        "answer": "AWS Config",
+        "description": "AWS Config provides compliance monitoring and assessment of AWS resource configurations."
+    },
+    {
+        "question": "Which AWS service can be used to create and manage SSL/TLS certificates for your applications?",
+        "options": ["AWS Certificate Manager", "AWS IAM", "AWS CloudFront", "AWS Route 53"],
+        "answer": "AWS Certificate Manager",
+        "description": "AWS Certificate Manager makes it easy to provision, manage, and deploy SSL/TLS certificates."
+    },
+    {
+        "question": "True or False: AWS Global Accelerator is primarily used for accelerating network performance for global applications.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Global Accelerator enhances the performance of your applications by routing traffic to optimal endpoints."
+    },
+    {
+        "question": "Which AWS service can be used for network security to filter out unwanted web traffic?",
+        "options": ["AWS WAF", "AWS Shield", "AWS GuardDuty", "AWS Config"],
+        "answer": "AWS WAF",
+        "description": "AWS WAF allows you to create rules to filter and monitor HTTP/HTTPS requests to your web applications."
+    },
+    {
+        "question": "Fill in the blank: _________ allows you to share AWS resources across different accounts or VPCs using private connectivity.",
+        "options": ["AWS PrivateLink", "AWS Transit Gateway", "AWS VPC Peering", "AWS Direct Connect"],
+        "answer": "AWS PrivateLink",
+        "description": "AWS PrivateLink enables private connectivity between VPCs and AWS services."
+    },
+    {
+        "question": "Which service allows you to monitor the performance of your applications using traces and metrics?",
+        "options": ["AWS CloudTrail", "AWS CloudWatch", "AWS X-Ray", "AWS Config"],
+        "answer": "AWS X-Ray",
+        "description": "AWS X-Ray helps developers analyze and debug production applications by providing insights into performance."
+    },
+    {
+        "question": "True or False: AWS Transit Gateway can help simplify network management by consolidating VPC connections.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Transit Gateway simplifies network management by connecting multiple VPCs and on-premises networks."
+    },
+    {
+        "question": "Which AWS service provides managed NAT gateway capabilities to allow private subnet instances to access the internet?",
+        "options": ["AWS NAT Gateway", "AWS VPN", "AWS Direct Connect", "AWS Transit Gateway"],
+        "answer": "AWS NAT Gateway",
+        "description": "AWS NAT Gateway enables instances in a private subnet to connect to the internet while remaining unreachable from outside."
+    },
+    {
+        "question": "Fill in the blank: _________ provides features to protect against DDoS attacks for your applications running on AWS.",
+        "options": ["AWS Shield", "AWS WAF", "AWS GuardDuty", "AWS Firewall Manager"],
+        "answer": "AWS Shield",
+        "description": "AWS Shield provides DDoS protection to applications running on AWS."
+    },
+    {
+        "question": "Which service can be used to implement network access control policies across multiple AWS accounts?",
+        "options": ["AWS IAM", "AWS Organizations", "AWS Control Tower", "AWS Network Firewall"],
+        "answer": "AWS Network Firewall",
+        "description": "AWS Network Firewall allows you to implement firewall policies for your VPC."
+    },
+    {
+        "question": "True or False: AWS Config can notify you of any changes to your AWS resources.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Config can notify you of configuration changes and compliance status in your AWS environment."
+    },
+    {
+        "question": "Fill in the blank: _________ is a fully managed service that enables secure remote access to your AWS resources.",
+        "options": ["AWS Client VPN", "AWS Site-to-Site VPN", "AWS Direct Connect", "AWS Transit Gateway"],
+        "answer": "AWS Client VPN",
+        "description": "AWS Client VPN allows users to connect securely to AWS resources from any location."
+    },
+    {
+        "question": "Which AWS service allows you to create a globally distributed network for your applications?",
+        "options": ["AWS Global Accelerator", "AWS Direct Connect", "AWS Transit Gateway", "AWS CloudFront"],
+        "answer": "AWS Global Accelerator",
+        "description": "AWS Global Accelerator improves the availability and performance of your applications with global users."
+    },
+    {
+        "question": "True or False: AWS Direct Connect can be used to create a private connection from your data center to AWS.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Direct Connect allows for a dedicated network connection from your premises to AWS."
+    },
+    {
+        "question": "Which service provides a way to monitor and log API calls made on your AWS resources?",
+        "options": ["AWS CloudTrail", "AWS CloudWatch", "AWS Config", "AWS X-Ray"],
+        "answer": "AWS CloudTrail",
+        "description": "AWS CloudTrail enables governance, compliance, and operational and risk auditing of your AWS account."
+    },
+    {
+        "question": "Fill in the blank: _________ enables secure and scalable web applications by distributing incoming traffic across multiple resources.",
+        "options": ["AWS Elastic Load Balancing", "AWS Auto Scaling", "AWS Route 53", "AWS CloudFront"],
+        "answer": "AWS Elastic Load Balancing",
+        "description": "AWS Elastic Load Balancing automatically distributes incoming application traffic across multiple targets."
+    },
+    {
+        "question": "Which service provides a centralized dashboard to manage network traffic for multiple VPCs?",
+        "options": ["AWS Transit Gateway", "AWS VPC Peering", "AWS Direct Connect", "AWS Client VPN"],
+        "answer": "AWS Transit Gateway",
+        "description": "AWS Transit Gateway simplifies network connectivity and routing between multiple VPCs and on-premises networks."
+    },
+    {
+        "question": "True or False: AWS Network Firewall can automatically scale based on traffic patterns.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Network Firewall scales automatically to accommodate traffic demands."
+    },
+    {
+        "question": "Fill in the blank: _________ is a service that can be used to restrict access to web applications based on IP addresses.",
+        "options": ["AWS WAF", "AWS Shield", "AWS GuardDuty", "AWS Config"],
+        "answer": "AWS WAF",
+        "description": "AWS WAF allows you to create rules to restrict access based on IP addresses."
+    },
+    {
+        "question": "Which AWS service allows you to monitor and visualize the performance of your applications and infrastructure?",
+        "options": ["AWS CloudWatch", "AWS X-Ray", "AWS CloudTrail", "AWS Config"],
+        "answer": "AWS CloudWatch",
+        "description": "AWS CloudWatch monitors and provides insights into your AWS resources and applications."
+    },
+    {
+        "question": "Fill in the blank: _________ is a service that helps you manage and deploy network configurations as code.",
+        "options": ["AWS CloudFormation", "AWS Systems Manager", "AWS Config", "AWS Elastic Beanstalk"],
+        "answer": "AWS CloudFormation",
+        "description": "AWS CloudFormation allows you to automate the setup of AWS resources using templates."
+    },
+    {
+        "question": "Which service can be used to create a VPN connection between your on-premises network and AWS?",
+        "options": ["AWS Site-to-Site VPN", "AWS Client VPN", "AWS Direct Connect", "AWS Transit Gateway"],
+        "answer": "AWS Site-to-Site VPN",
+        "description": "AWS Site-to-Site VPN establishes a secure connection between your AWS VPC and on-premises network."
+    },
+    {
+        "question": "True or False: AWS Global Accelerator can be used to optimize the path of traffic to your AWS resources.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Global Accelerator optimizes the path to your resources for better performance."
+    },
+    {
+        "question": "Fill in the blank: _________ is a managed service that provides automatic scaling of resources based on demand.",
+        "options": ["AWS Auto Scaling", "AWS Elastic Load Balancing", "AWS CloudFormation", "AWS CloudFront"],
+        "answer": "AWS Auto Scaling",
+        "description": "AWS Auto Scaling adjusts the number of resources based on demand to ensure performance."
+    },
+    {
+        "question": "Which service provides an interface for managing and deploying API requests?",
+        "options": ["AWS API Gateway", "AWS Lambda", "AWS Step Functions", "AWS CloudFront"],
+        "answer": "AWS API Gateway",
+        "description": "AWS API Gateway enables developers to create, publish, maintain, and secure APIs."
+    },
+    {
+        "question": "True or False: AWS VPC Peering allows private IP addresses to communicate across VPCs.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS VPC Peering enables private IP addresses from different VPCs to communicate with each other."
+    },
+    {
+        "question": "Fill in the blank: _________ provides a centralized way to manage AWS resources across multiple accounts.",
+        "options": ["AWS Organizations", "AWS Control Tower", "AWS IAM", "AWS Config"],
+        "answer": "AWS Organizations",
+        "description": "AWS Organizations helps manage billing, compliance, and security across multiple AWS accounts."
+    },
+    {
+        "question": "Which service allows you to create dedicated connections from your on-premises network to AWS?",
+        "options": ["AWS Direct Connect", "AWS Site-to-Site VPN", "AWS Client VPN", "AWS Transit Gateway"],
+        "answer": "AWS Direct Connect",
+        "description": "AWS Direct Connect provides a dedicated network connection from your premises to AWS."
+    },
+    {
+        "question": "True or False: AWS Transit Gateway can be used to manage inter-VPC routing without using a centralized router.",
+        "options": ["True", "False"],
+        "answer": "False",
+        "description": "AWS Transit Gateway uses a centralized router to manage inter-VPC routing."
+    },
+    {
+        "question": "Which AWS service provides the ability to secure your applications from DDoS attacks?",
+        "options": ["AWS Shield", "AWS WAF", "AWS GuardDuty", "AWS Config"],
+        "answer": "AWS Shield",
+        "description": "AWS Shield provides protection against DDoS attacks for applications running on AWS."
+    },
+    {
+        "question": "Fill in the blank: _________ is a service that allows you to connect your VPC to the AWS global network.",
+        "options": ["AWS Direct Connect", "AWS Global Accelerator", "AWS Transit Gateway", "AWS VPN"],
+        "answer": "AWS Global Accelerator",
+        "description": "AWS Global Accelerator directs traffic to optimal endpoints over the AWS global network."
+    },
+    {
+        "question": "Which service can be used to create a managed virtual private network for remote users?",
+        "options": ["AWS Client VPN", "AWS Site-to-Site VPN", "AWS Direct Connect", "AWS Transit Gateway"],
+        "answer": "AWS Client VPN",
+        "description": "AWS Client VPN allows users to securely connect to AWS resources from anywhere."
+    },
+    {
+        "question": "True or False: AWS WAF can block requests based on request patterns and conditions.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS WAF allows for customizable rules to block requests based on specific patterns."
+    },
+    {
+        "question": "Fill in the blank: _________ is a managed service that enables you to log and monitor API usage.",
+        "options": ["AWS CloudTrail", "AWS CloudWatch", "AWS X-Ray", "AWS Config"],
+        "answer": "AWS CloudTrail",
+        "description": "AWS CloudTrail records API calls made on your account, allowing for auditing and compliance."
+    },
+    {
+        "question": "Which service can help you monitor and log data flow in and out of your VPC?",
+        "options": ["AWS VPC Flow Logs", "AWS CloudWatch", "AWS CloudTrail", "AWS Config"],
+        "answer": "AWS VPC Flow Logs",
+        "description": "AWS VPC Flow Logs allows you to capture information about the IP traffic going to and from your network interfaces."
+    },
+    {
+        "question": "True or False: AWS Network Firewall allows you to set up intrusion detection and prevention rules.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Network Firewall enables you to create stateful rules for intrusion detection and prevention."
+    },
+    {
+        "question": "Fill in the blank: _________ is a service that provides the ability to monitor compliance across multiple AWS accounts.",
+        "options": ["AWS Control Tower", "AWS Organizations", "AWS Config", "AWS IAM"],
+        "answer": "AWS Control Tower",
+        "description": "AWS Control Tower provides governance and compliance management across AWS accounts."
+    },
+    {
+        "question": "Which AWS service provides automated compliance checks for your resources?",
+        "options": ["AWS Config", "AWS CloudTrail", "AWS CloudWatch", "AWS Systems Manager"],
+        "answer": "AWS Config",
+        "description": "AWS Config monitors the configuration of your AWS resources and checks for compliance."
+    },
+    {
+        "question": "True or False: AWS Shield is automatically included with AWS services at no additional cost.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Shield Standard is included automatically at no cost with all AWS services."
+    },
+    {
+        "question": "Fill in the blank: _________ enables you to manage access to AWS services and resources securely.",
+        "options": ["AWS IAM", "AWS Cognito", "AWS Organizations", "AWS Config"],
+        "answer": "AWS IAM",
+        "description": "AWS IAM enables you to manage user access and permissions for AWS services."
+    },
+    {
+        "question": "Which AWS service allows you to automatically distribute incoming application traffic across multiple targets?",
+        "options": ["AWS Elastic Load Balancing", "AWS Route 53", "AWS Global Accelerator", "AWS CloudFront"],
+        "answer": "AWS Elastic Load Balancing",
+        "description": "AWS Elastic Load Balancing distributes incoming traffic across multiple targets to ensure availability."
+    },
+    {
+        "question": "True or False: AWS Route 53 can be used to route user traffic globally to different resources.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Route 53 provides DNS services that allow for global traffic routing to various AWS resources."
+    },
+    {
+        "question": "Fill in the blank: _________ is a fully managed service for deploying and managing applications at scale.",
+        "options": ["AWS Elastic Beanstalk", "AWS Lambda", "AWS ECS", "AWS EKS"],
+        "answer": "AWS Elastic Beanstalk",
+        "description": "AWS Elastic Beanstalk provides an easy-to-use service for deploying applications without worrying about infrastructure."
+    },
+    {
+        "question": "Which AWS service provides an easy way to run containerized applications at scale?",
+        "options": ["AWS ECS", "AWS Lambda", "AWS Elastic Beanstalk", "AWS Fargate"],
+        "answer": "AWS ECS",
+        "description": "AWS ECS (Elastic Container Service) makes it easy to deploy and manage containerized applications."
+    },
+    {
+        "question": "True or False: AWS Lambda can automatically scale based on the number of incoming requests.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Lambda automatically scales based on incoming request volume."
+    },
+    {
+        "question": "Fill in the blank: _________ is a service that allows you to create and manage serverless applications.",
+        "options": ["AWS Lambda", "AWS Fargate", "AWS Elastic Beanstalk", "AWS ECS"],
+        "answer": "AWS Lambda",
+        "description": "AWS Lambda allows you to run code without provisioning or managing servers."
+    },
+    {
+        "question": "Which service provides a way to deploy and manage machine learning models at scale?",
+        "options": ["AWS SageMaker", "AWS Lambda", "AWS Elastic Beanstalk", "AWS ECS"],
+        "answer": "AWS SageMaker",
+        "description": "AWS SageMaker is a fully managed service that provides tools to build, train, and deploy machine learning models."
+    },
+    {
+        "question": "True or False: AWS CodePipeline allows you to automate the software release process.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS CodePipeline enables you to automate your software release process through continuous delivery."
+    },
+    {
+        "question": "Fill in the blank: _________ is a managed service that helps you securely store and manage secrets.",
+        "options": ["AWS Secrets Manager", "AWS KMS", "AWS IAM", "AWS Config"],
+        "answer": "AWS Secrets Manager",
+        "description": "AWS Secrets Manager enables you to securely store, retrieve, and manage secrets needed to access applications and services."
+    },
+    {
+        "question": "Which service can be used to protect sensitive data using encryption keys?",
+        "options": ["AWS KMS", "AWS Secrets Manager", "AWS IAM", "AWS Config"],
+        "answer": "AWS KMS",
+        "description": "AWS KMS (Key Management Service) allows you to create and control encryption keys to protect your data."
+    },
+    {
+        "question": "True or False: AWS CloudFormation can be used to provision AWS resources programmatically.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS CloudFormation allows you to define and provision AWS resources using templates."
+    },
+    {
+        "question": "Fill in the blank: _________ is a fully managed service for deploying and managing containerized applications using Kubernetes.",
+        "options": ["AWS EKS", "AWS ECS", "AWS Fargate", "AWS Elastic Beanstalk"],
+        "answer": "AWS EKS",
+        "description": "AWS EKS (Elastic Kubernetes Service) makes it easy to run Kubernetes on AWS without needing to install and operate your own control plane."
+    },
+    {
+        "question": "Which service can help you create and manage RESTful APIs?",
+        "options": ["AWS API Gateway", "AWS Lambda", "AWS ECS", "AWS Fargate"],
+        "answer": "AWS API Gateway",
+        "description": "AWS API Gateway allows you to create, publish, maintain, monitor, and secure APIs at any scale."
+    },
+    {
+        "question": "True or False: AWS CodeBuild can automatically build and test your source code.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS CodeBuild is a fully managed build service that compiles source code, runs tests, and produces software packages."
+    },
+    {
+        "question": "Fill in the blank: _________ is a service that allows you to run event-driven serverless applications.",
+        "options": ["AWS Lambda", "AWS Step Functions", "AWS Fargate", "AWS ECS"],
+        "answer": "AWS Lambda",
+        "description": "AWS Lambda allows you to run your code without provisioning or managing servers, in response to events."
+    },
+    {
+        "question": "Which AWS service can help you deploy and manage applications using microservices architecture?",
+        "options": ["AWS ECS", "AWS Elastic Beanstalk", "AWS Lambda", "AWS Fargate"],
+        "answer": "AWS ECS",
+        "description": "AWS ECS (Elastic Container Service) allows you to deploy and manage containerized applications using microservices."
+    },
+    {
+        "question": "True or False: AWS CloudFront can cache content at edge locations to reduce latency.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS CloudFront is a content delivery network (CDN) that caches content at edge locations for faster access."
+    },
+    {
+        "question": "Fill in the blank: _________ is a service that provides a way to orchestrate serverless workflows.",
+        "options": ["AWS Step Functions", "AWS Lambda", "AWS CodePipeline", "AWS ECS"],
+        "answer": "AWS Step Functions",
+        "description": "AWS Step Functions enables you to coordinate multiple AWS services into serverless workflows."
+    },
+    {
+        "question": "Which service can be used to automate resource provisioning in AWS?",
+        "options": ["AWS CloudFormation", "AWS CloudTrail", "AWS CloudWatch", "AWS Config"],
+        "answer": "AWS CloudFormation",
+        "description": "AWS CloudFormation allows you to define and provision AWS infrastructure as code."
+    },
+    {
+        "question": "True or False: AWS Systems Manager can be used to automate operational tasks across AWS resources.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Systems Manager provides a unified interface for managing AWS resources and automating operational tasks."
+    },
+    {
+        "question": "Fill in the blank: _________ is a service that helps you monitor and manage the health of your AWS resources.",
+        "options": ["AWS CloudWatch", "AWS CloudTrail", "AWS Config", "AWS X-Ray"],
+        "answer": "AWS CloudWatch",
+        "description": "AWS CloudWatch monitors the health and performance of your AWS resources and applications."
+    },
+    {
+        "question": "Which service allows you to control access to your AWS resources?",
+        "options": ["AWS IAM", "AWS Cognito", "AWS Secrets Manager", "AWS Config"],
+        "answer": "AWS IAM",
+        "description": "AWS IAM (Identity and Access Management) enables you to manage access to AWS services and resources securely."
+    },
+    {
+        "question": "True or False: AWS CloudTrail records all actions taken by users in your AWS account.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS CloudTrail captures API calls for AWS services in your account for auditing purposes."
+    },
+    {
+        "question": "Fill in the blank: _________ is a service that provides a way to manage and deploy machine learning models.",
+        "options": ["AWS SageMaker", "AWS Lambda", "AWS Elastic Beanstalk", "AWS ECS"],
+        "answer": "AWS SageMaker",
+        "description": "AWS SageMaker provides tools to build, train, and deploy machine learning models at scale."
+    }
+]

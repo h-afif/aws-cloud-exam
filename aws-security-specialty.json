@@ -1,0 +1,254 @@
+[
+    {
+        "question": "Which of the following is an AWS service used to manage access to AWS resources?",
+        "options": ["AWS IAM", "AWS Shield", "AWS WAF", "AWS GuardDuty"],
+        "answer": "AWS IAM",
+        "description": "AWS Identity and Access Management (IAM) allows you to manage access to AWS services and resources securely."
+    },
+    {
+        "question": "What does AWS Shield protect against?",
+        "options": ["Data loss", "Distributed Denial of Service (DDoS) attacks", "Unauthorized access", "Insider threats"],
+        "answer": "Distributed Denial of Service (DDoS) attacks",
+        "description": "AWS Shield provides protection against DDoS attacks, helping to ensure the availability of your applications."
+    },
+    {
+        "question": "Which AWS service allows you to monitor and audit API calls?",
+        "options": ["AWS CloudTrail", "AWS CloudWatch", "AWS Config", "AWS X-Ray"],
+        "answer": "AWS CloudTrail",
+        "description": "AWS CloudTrail enables you to monitor and log API calls made within your AWS account."
+    },
+    {
+        "question": "What is the primary purpose of AWS WAF?",
+        "options": ["To protect against SQL injection and XSS attacks", "To manage user permissions", "To encrypt data at rest", "To analyze network traffic"],
+        "answer": "To protect against SQL injection and XSS attacks",
+        "description": "AWS Web Application Firewall (WAF) helps protect your web applications from common web exploits."
+    },
+    {
+        "question": "Which of the following is a best practice for securing your AWS account?",
+        "options": ["Using root account for everyday tasks", "Enabling multi-factor authentication (MFA)", "Disabling CloudTrail", "Using default security groups"],
+        "answer": "Enabling multi-factor authentication (MFA)",
+        "description": "Enabling MFA adds an additional layer of security to your AWS account by requiring a second form of verification."
+    },
+    {
+        "question": "What is the role of AWS Key Management Service (KMS)?",
+        "options": ["Manage API calls", "Encrypt and manage encryption keys", "Monitor application performance", "Scale EC2 instances"],
+        "answer": "Encrypt and manage encryption keys",
+        "description": "AWS KMS is a managed service that allows you to create and control encryption keys used to encrypt your data."
+    },
+    {
+        "question": "What does AWS Config do?",
+        "options": ["Manage user access", "Monitor configuration changes", "Encrypt data in transit", "Protect against DDoS attacks"],
+        "answer": "Monitor configuration changes",
+        "description": "AWS Config tracks the configuration changes of your AWS resources and helps assess compliance with regulations."
+    },
+    {
+        "question": "Which service provides a centralized view of security and compliance across AWS accounts?",
+        "options": ["AWS Organizations", "AWS Security Hub", "AWS Inspector", "AWS Shield"],
+        "answer": "AWS Security Hub",
+        "description": "AWS Security Hub provides a comprehensive view of your security alerts and security posture across multiple AWS accounts."
+    },
+    {
+        "question": "How does AWS Secrets Manager help with security?",
+        "options": ["Automates patching", "Stores sensitive information securely", "Monitors network traffic", "Manages user permissions"],
+        "answer": "Stores sensitive information securely",
+        "description": "AWS Secrets Manager helps you protect access to your applications, services, and IT resources without the upfront investment and on-going maintenance costs of operating your own infrastructure."
+    },
+    {
+        "question": "Which AWS service provides real-time threat detection for AWS accounts?",
+        "options": ["AWS GuardDuty", "AWS CloudTrail", "AWS WAF", "AWS Inspector"],
+        "answer": "AWS GuardDuty",
+        "description": "AWS GuardDuty is a managed threat detection service that continuously monitors your AWS accounts and workloads for malicious activity."
+    },
+    {
+        "question": "What is the function of Amazon Macie?",
+        "options": ["Monitoring EC2 instances", "Protecting against DDoS attacks", "Data classification and security", "Managing API calls"],
+        "answer": "Data classification and security",
+        "description": "Amazon Macie uses machine learning to automatically discover, classify, and protect sensitive data in AWS."
+    },
+    {
+        "question": "Which of the following statements is true regarding VPC security groups?",
+        "options": ["They can only be associated with EC2 instances", "They act as a firewall at the instance level", "They are globally unique", "They are mandatory for all resources in a VPC"],
+        "answer": "They act as a firewall at the instance level",
+        "description": "Security groups act as a virtual firewall for your EC2 instances to control incoming and outgoing traffic."
+    },
+    {
+        "question": "What does AWS CloudHSM provide?",
+        "options": ["Key management", "Virtual machines", "High-performance computing", "Backup solutions"],
+        "answer": "Key management",
+        "description": "AWS CloudHSM is a cloud-based hardware security module (HSM) that enables you to generate and use your own encryption keys on the AWS Cloud."
+    },
+    {
+        "question": "Which AWS service helps you discover and remediate security vulnerabilities?",
+        "options": ["AWS Inspector", "AWS Security Hub", "AWS Config", "AWS GuardDuty"],
+        "answer": "AWS Inspector",
+        "description": "AWS Inspector automatically assesses applications for vulnerabilities or deviations from best practices."
+    },
+    {
+        "question": "What is a best practice for securing S3 buckets?",
+        "options": ["Allow public access", "Use bucket policies and IAM roles", "Disable versioning", "Use default encryption only"],
+        "answer": "Use bucket policies and IAM roles",
+        "description": "Using bucket policies and IAM roles helps ensure that only authorized users can access your S3 buckets."
+    },
+    {
+        "question": "What is the function of Amazon Inspector?",
+        "options": ["DDoS protection", "Vulnerability management", "API call monitoring", "Database encryption"],
+        "answer": "Vulnerability management",
+        "description": "Amazon Inspector helps improve the security and compliance of applications deployed on AWS."
+    },
+    {
+        "question": "How can you enforce security best practices in your AWS environment?",
+        "options": ["Ignore IAM policies", "Use AWS Config rules", "Disable CloudTrail", "Use weak passwords"],
+        "answer": "Use AWS Config rules",
+        "description": "AWS Config rules can be used to evaluate the configuration settings of your AWS resources to ensure compliance with security best practices."
+    },
+    {
+        "question": "What does AWS Identity Federation enable?",
+        "options": ["Running applications in containers", "Allowing access to AWS resources using external identities", "Creating VPCs", "Monitoring network traffic"],
+        "answer": "Allowing access to AWS resources using external identities",
+        "description": "AWS Identity Federation allows users to sign in to AWS services using external identities, like from corporate directories or social identities."
+    },
+    {
+        "question": "What is the purpose of an AWS Service Control Policy (SCP)?",
+        "options": ["Manage resource access", "Control billing", "Enforce permissions for IAM roles", "Restrict account-level actions in AWS Organizations"],
+        "answer": "Restrict account-level actions in AWS Organizations",
+        "description": "Service Control Policies (SCPs) enable you to manage permissions across AWS accounts in AWS Organizations."
+    },
+    {
+        "question": "Which AWS service allows you to manage security information and events from AWS and third-party sources?",
+        "options": ["AWS CloudTrail", "AWS Security Hub", "AWS GuardDuty", "AWS Config"],
+        "answer": "AWS Security Hub",
+        "description": "AWS Security Hub aggregates security alerts and findings from AWS services and third-party products."
+    },
+    {
+        "question": "What type of encryption does Amazon S3 support?",
+        "options": ["Only client-side encryption", "Only server-side encryption", "Both client-side and server-side encryption", "No encryption"],
+        "answer": "Both client-side and server-side encryption",
+        "description": "Amazon S3 supports both client-side and server-side encryption to protect data at rest."
+    },
+    {
+        "question": "Which AWS service provides centralized logging for all AWS accounts?",
+        "options": ["AWS CloudTrail", "AWS Config", "AWS Security Hub", "AWS S3"],
+        "answer": "AWS CloudTrail",
+        "description": "AWS CloudTrail provides event history of your AWS account activity, including actions taken through the AWS Management Console, SDKs, command line tools, and other AWS services."
+    },
+    {
+        "question": "What is the purpose of AWS Resource Access Manager (RAM)?",
+        "options": ["Manage user permissions", "Share resources between AWS accounts", "Audit AWS accounts", "Monitor compliance"],
+        "answer": "Share resources between AWS accounts",
+        "description": "AWS RAM allows you to share your resources across AWS accounts in your organization or with specific accounts."
+    },
+    {
+        "question": "What is the primary purpose of an AWS incident response plan?",
+        "options": ["To scale resources during high traffic", "To outline how to respond to security incidents", "To monitor resource utilization", "To backup data regularly"],
+        "answer": "To outline how to respond to security incidents",
+        "description": "An incident response plan helps organizations prepare for, detect, and respond to security incidents effectively."
+    },
+    {
+        "question": "How can you protect data in transit on AWS?",
+        "options": ["Using unsecured HTTP", "Using TLS/SSL", "Disabling encryption", "Using weak ciphers"],
+        "answer": "Using TLS/SSL",
+        "description": "Using TLS/SSL provides encryption for data in transit between AWS services and clients."
+    },
+    {
+        "question": "What is the main function of AWS Certificate Manager (ACM)?",
+        "options": ["Manage IAM policies", "Provision SSL/TLS certificates", "Monitor application performance", "Control API access"],
+        "answer": "Provision SSL/TLS certificates",
+        "description": "AWS Certificate Manager makes it easy to provision, manage, and deploy SSL/TLS certificates for use with AWS services."
+    },
+    {
+        "question": "Which AWS service can help protect your AWS resources from bot traffic?",
+        "options": ["AWS WAF", "AWS Shield", "Amazon Inspector", "AWS GuardDuty"],
+        "answer": "AWS WAF",
+        "description": "AWS Web Application Firewall (WAF) helps protect web applications from bots and other common exploits."
+    },
+    {
+        "question": "What is a common way to ensure least privilege access in AWS?",
+        "options": ["Assigning all users full access", "Using IAM policies to grant specific permissions", "Disabling IAM roles", "Using the root account for all tasks"],
+        "answer": "Using IAM policies to grant specific permissions",
+        "description": "Applying the principle of least privilege involves granting only the permissions necessary for users to perform their job functions."
+    },
+    {
+        "question": "What is the purpose of enabling AWS CloudTrail for your account?",
+        "options": ["To monitor application performance", "To create VPCs", "To log and monitor API calls", "To manage IAM roles"],
+        "answer": "To log and monitor API calls",
+        "description": "Enabling CloudTrail allows you to capture and log API calls made in your AWS account for auditing and security purposes."
+    },
+    {
+        "question": "What type of threats does AWS GuardDuty detect?",
+        "options": ["User error", "Malicious activity", "Hardware failure", "Network congestion"],
+        "answer": "Malicious activity",
+        "description": "AWS GuardDuty detects unauthorized and malicious activity across your AWS accounts and workloads."
+    },
+    {
+        "question": "What is the role of AWS Artifact?",
+        "options": ["Monitor resource performance", "Provide compliance-related documentation", "Manage security policies", "Encrypt sensitive data"],
+        "answer": "Provide compliance-related documentation",
+        "description": "AWS Artifact is a service that provides on-demand access to AWS compliance reports and security documentation."
+    },
+    {
+        "question": "Which service can you use to create an isolated virtual network within AWS?",
+        "options": ["Amazon VPC", "AWS IAM", "AWS Shield", "AWS CloudTrail"],
+        "answer": "Amazon VPC",
+        "description": "Amazon Virtual Private Cloud (VPC) allows you to provision a logically isolated section of the AWS cloud."
+    },
+    {
+        "question": "Which AWS service allows you to control access to your resources based on a set of rules?",
+        "options": ["AWS IAM", "AWS Shield", "AWS Config", "AWS CloudTrail"],
+        "answer": "AWS IAM",
+        "description": "AWS Identity and Access Management (IAM) enables you to define permissions that control access to your AWS resources."
+    },
+    {
+        "question": "What is the main function of AWS Network Firewall?",
+        "options": ["Encrypt data at rest", "Monitor user activity", "Provide network traffic filtering and protection", "Manage IAM roles"],
+        "answer": "Provide network traffic filtering and protection",
+        "description": "AWS Network Firewall allows you to set up network traffic filtering to protect your VPCs from unwanted traffic."
+    },
+    {
+        "question": "What does the principle of 'defense in depth' refer to?",
+        "options": ["Using a single security mechanism", "Implementing multiple layers of security controls", "Focusing solely on perimeter security", "Disabling security features"],
+        "answer": "Implementing multiple layers of security controls",
+        "description": "Defense in depth involves layering multiple security measures to protect your AWS resources from different types of threats."
+    },
+    {
+        "question": "Which AWS service is used for centralized access management across multiple AWS accounts?",
+        "options": ["AWS IAM", "AWS Organizations", "AWS Config", "AWS Shield"],
+        "answer": "AWS Organizations",
+        "description": "AWS Organizations allows you to centrally manage and govern your environment as you grow and scale your AWS resources across multiple accounts."
+    },
+    {
+        "question": "What is the purpose of AWS Firewall Manager?",
+        "options": ["To manage security policies across multiple accounts", "To monitor application performance", "To analyze network traffic", "To manage IAM roles"],
+        "answer": "To manage security policies across multiple accounts",
+        "description": "AWS Firewall Manager is a security management service that allows you to centrally configure and manage firewall rules across multiple AWS accounts."
+    },
+    {
+        "question": "How does AWS S3 block public access to buckets and objects?",
+        "options": ["Through bucket policies", "By default settings", "Using IAM roles", "Using encryption"],
+        "answer": "By default settings",
+        "description": "AWS S3 provides settings to block public access to your buckets and objects at the account and bucket level."
+    },
+    {
+        "question": "What is the purpose of AWS DMS in a security context?",
+        "options": ["Data encryption", "Database migration", "Monitoring compliance", "Managing IAM roles"],
+        "answer": "Database migration",
+        "description": "AWS Database Migration Service (DMS) helps you migrate databases securely and efficiently to AWS."
+    },
+    {
+        "question": "What does AWS Security Token Service (STS) do?",
+        "options": ["Issues temporary security credentials", "Manages IAM policies", "Encrypts data", "Monitors user activity"],
+        "answer": "Issues temporary security credentials",
+        "description": "AWS STS allows you to request temporary, limited-privilege credentials for IAM users or federated users."
+    },
+    {
+        "question": "Which AWS service allows you to perform risk assessments for your AWS workloads?",
+        "options": ["AWS Config", "AWS Security Hub", "AWS Well-Architected Tool", "AWS GuardDuty"],
+        "answer": "AWS Well-Architected Tool",
+        "description": "The AWS Well-Architected Tool helps you review the state of your workloads and includes security as one of its five pillars."
+    },
+    {
+        "question": "How can you ensure the integrity of your data in AWS?",
+        "options": ["Using unencrypted storage", "Implementing logging and monitoring", "Using weak passwords", "Disabling versioning"],
+        "answer": "Implementing logging and monitoring",
+        "description": "Monitoring and logging access to your data helps ensure its integrity and detect unauthorized changes."
+    }
+]

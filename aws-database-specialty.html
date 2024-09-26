@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Database – Specialty Quiz</title>
+    <link rel="stylesheet" href="stylepages.css">
+    <link rel="icon" href="icon32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="icon512.png" sizes="512x512" type="image/png">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L27RT0EZZS"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-L27RT0EZZS');
+    </script>
+</head>
+<body>
+    <header>
+        <h1>AWS Database – Specialty</h1>
+    </header>
+    
+    <main>
+        <div id="question-container">
+            <button id="home-button" onclick="location.href='index.html'">Return to Home Page</button>
+            <div id="question-section" class="questions-section">
+                <!-- Questions will be dynamically inserted here disabled -->
+            </div>
+            <div id="question-info">
+                <span id="question-number">Question 1</span>
+                <span id="questions-left">Questions left: 20</span>
+            </div>
+            <div id="navigation-buttons">
+                <button id="prev-button" >Previous</button>
+                <button id="next-button">Next</button>
+            </div>
+        </div>
+
+        <div id="result" style="display:none;">
+            <h2>Quiz Results</h2>
+            <button class="retake-btn">Retake the Test</button>
+            <button id="home-button" onclick="location.href='index.html'">Return to Home Page</button>
+            <div id="question-review"></div>
+        </div>
+                
+    </main>
+    
+    <script src="javascript/aws-database-specialty.js"></script>
+</body>
+</html>

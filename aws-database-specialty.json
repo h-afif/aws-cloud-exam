@@ -1,0 +1,290 @@
+[
+    {
+        "question": "Which AWS service is best suited for key-value and document database workloads?",
+        "options": ["Amazon RDS", "Amazon DynamoDB", "Amazon Redshift", "Amazon Aurora"],
+        "answer": "Amazon DynamoDB",
+        "description": "Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance."
+    },
+    {
+        "question": "What type of database is Amazon Aurora?",
+        "options": ["NoSQL", "Relational", "In-memory", "Graph"],
+        "answer": "Relational",
+        "description": "Amazon Aurora is a relational database that is compatible with MySQL and PostgreSQL."
+    },
+    {
+        "question": "Which AWS service provides managed, scalable data warehousing?",
+        "options": ["Amazon RDS", "Amazon DynamoDB", "Amazon Redshift", "Amazon ElastiCache"],
+        "answer": "Amazon Redshift",
+        "description": "Amazon Redshift is a fully managed data warehouse service that makes it simple and cost-effective to analyze all your data."
+    },
+    {
+        "question": "Which of the following is a benefit of using Amazon RDS?",
+        "options": ["Automatic backups", "No scaling capabilities", "Manual patching", "Limited performance"],
+        "answer": "Automatic backups",
+        "description": "Amazon RDS automates backups and allows point-in-time recovery for databases."
+    },
+    {
+        "question": "Fill in the blank: _________ is a fully managed database service for deploying, operating, and scaling a relational database.",
+        "options": ["Amazon RDS", "Amazon DynamoDB", "Amazon Redshift", "Amazon ElastiCache"],
+        "answer": "Amazon RDS",
+        "description": "Amazon RDS simplifies the setup and management of relational databases."
+    },
+    {
+        "question": "Which service should you use to manage a NoSQL database with global replication?",
+        "options": ["Amazon DynamoDB", "Amazon Aurora", "Amazon RDS", "Amazon S3"],
+        "answer": "Amazon DynamoDB",
+        "description": "DynamoDB provides global tables for multi-region, fully replicated databases."
+    },
+    {
+        "question": "What is the maximum storage capacity for Amazon RDS with MySQL?",
+        "options": ["64 TB", "32 TB", "16 TB", "8 TB"],
+        "answer": "64 TB",
+        "description": "Amazon RDS for MySQL supports storage up to 64 TB."
+    },
+    {
+        "question": "What type of scaling does Amazon Aurora support?",
+        "options": ["Vertical only", "Horizontal only", "Both vertical and horizontal", "No scaling"],
+        "answer": "Both vertical and horizontal",
+        "description": "Aurora can scale up and down and also add read replicas for horizontal scaling."
+    },
+    {
+        "question": "Fill in the blank: _________ is a managed caching service that improves the performance of applications.",
+        "options": ["Amazon RDS", "Amazon ElastiCache", "Amazon S3", "Amazon DynamoDB"],
+        "answer": "Amazon ElastiCache",
+        "description": "ElastiCache is used to speed up database-driven applications by caching data in memory."
+    },
+    {
+        "question": "Which AWS service would you use for time-series data storage?",
+        "options": ["Amazon DynamoDB", "Amazon Aurora", "Amazon Timestream", "Amazon Redshift"],
+        "answer": "Amazon Timestream",
+        "description": "Amazon Timestream is designed for time-series data storage and analytics."
+    },
+    {
+        "question": "Which of the following is a characteristic of Amazon Aurora?",
+        "options": ["Supports only MySQL", "Provides high availability and durability", "Manual backups only", "No automatic scaling"],
+        "answer": "Provides high availability and durability",
+        "description": "Aurora automatically replicates data across multiple Availability Zones for high availability."
+    },
+    {
+        "question": "What is Amazon DocumentDB primarily used for?",
+        "options": ["Relational data", "NoSQL document storage", "Data warehousing", "In-memory caching"],
+        "answer": "NoSQL document storage",
+        "description": "Amazon DocumentDB is designed for JSON document storage and queries."
+    },
+    {
+        "question": "Which AWS database service is fully managed and supports SQL?",
+        "options": ["Amazon S3", "Amazon DynamoDB", "Amazon RDS", "Amazon Redshift"],
+        "answer": "Amazon RDS",
+        "description": "Amazon RDS provides a fully managed relational database service that supports SQL."
+    },
+    {
+        "question": "Fill in the blank: _________ is the primary method for accessing Amazon RDS.",
+        "options": ["AWS Management Console", "AWS CLI", "RDS API", "All of the above"],
+        "answer": "All of the above",
+        "description": "You can access Amazon RDS through the console, CLI, and API."
+    },
+    {
+        "question": "What feature does Amazon RDS Multi-AZ provide?",
+        "options": ["Read replicas", "High availability", "Backup storage", "Data migration"],
+        "answer": "High availability",
+        "description": "RDS Multi-AZ provides high availability by automatically replicating data to a standby instance."
+    },
+    {
+        "question": "Which service is designed for running relational databases in containers?",
+        "options": ["Amazon RDS", "Amazon Aurora", "Amazon ECS", "Amazon EKS"],
+        "answer": "Amazon ECS",
+        "description": "You can run containerized relational databases using Amazon ECS."
+    },
+    {
+        "question": "Which of the following is not a feature of Amazon Aurora?",
+        "options": ["Automatic backups", "Cross-region replication", "High IOPS", "No SQL support"],
+        "answer": "No SQL support",
+        "description": "Amazon Aurora supports SQL for relational databases."
+    },
+    {
+        "question": "Fill in the blank: _________ is a database migration service that helps you migrate databases to AWS.",
+        "options": ["AWS Database Migration Service (DMS)", "Amazon RDS", "AWS Glue", "Amazon Redshift"],
+        "answer": "AWS Database Migration Service (DMS)",
+        "description": "DMS helps migrate databases to AWS with minimal downtime."
+    },
+    {
+        "question": "Which AWS service is best for real-time analytics on streaming data?",
+        "options": ["Amazon Redshift", "Amazon DynamoDB", "Amazon Kinesis", "Amazon Aurora"],
+        "answer": "Amazon Kinesis",
+        "description": "Amazon Kinesis is designed for processing real-time streaming data."
+    },
+    {
+        "question": "What does the acronym ACID stand for in database transactions?",
+        "options": ["Atomicity, Consistency, Isolation, Durability", "Atomicity, Consistency, Integrity, Durability", "Application, Consistency, Isolation, Durability", "Atomicity, Completability, Isolation, Durability"],
+        "answer": "Atomicity, Consistency, Isolation, Durability",
+        "description": "ACID properties ensure reliable processing of database transactions."
+    },
+    {
+        "question": "What is the main purpose of AWS Glue?",
+        "options": ["Data warehousing", "ETL (Extract, Transform, Load) operations", "In-memory caching", "NoSQL database management"],
+        "answer": "ETL (Extract, Transform, Load) operations",
+        "description": "AWS Glue is a fully managed ETL service for preparing data for analytics."
+    },
+    {
+        "question": "Fill in the blank: _________ is used to store unstructured data in AWS.",
+        "options": ["Amazon S3", "Amazon RDS", "Amazon DynamoDB", "Amazon Redshift"],
+        "answer": "Amazon S3",
+        "description": "Amazon S3 is designed to store and retrieve any amount of data, making it ideal for unstructured data."
+    },
+    {
+        "question": "Which service would you use for graph database workloads?",
+        "options": ["Amazon Aurora", "Amazon Neptune", "Amazon DynamoDB", "Amazon ElastiCache"],
+        "answer": "Amazon Neptune",
+        "description": "Amazon Neptune is a fully managed graph database service."
+    },
+    {
+        "question": "What is the maximum number of read replicas for an Amazon RDS instance?",
+        "options": ["5", "15", "50", "100"],
+        "answer": "15",
+        "description": "Amazon RDS allows up to 15 read replicas per primary instance."
+    },
+    {
+        "question": "Fill in the blank: _________ is the service that provides data warehousing for analytics.",
+        "options": ["Amazon RDS", "Amazon DynamoDB", "Amazon Redshift", "Amazon S3"],
+        "answer": "Amazon Redshift",
+        "description": "Amazon Redshift is specifically designed for data warehousing and analytics."
+    },
+    {
+        "question": "Which of the following is an AWS-managed NoSQL database?",
+        "options": ["Amazon RDS", "Amazon Redshift", "Amazon DynamoDB", "Amazon ElastiCache"],
+        "answer": "Amazon DynamoDB",
+        "description": "DynamoDB is a fully managed NoSQL database service."
+    },
+    {
+        "question": "What does Amazon Aurora use for storage?",
+        "options": ["S3", "EBS", "Instance store", "Local SSD"],
+        "answer": "EBS",
+        "description": "Amazon Aurora uses Amazon EBS for data storage."
+    },
+    {
+        "question": "Fill in the blank: _________ allows you to create a backup of your RDS instance.",
+        "options": ["AWS Backup", "Amazon Glacier", "Amazon S3", "Amazon RDS Snapshots"],
+        "answer": "Amazon RDS Snapshots",
+        "description": "You can create automated or manual snapshots of RDS instances for backup."
+    },
+    {
+        "question": "Which service is best for high-performance, in-memory caching?",
+        "options": ["Amazon ElastiCache", "Amazon RDS", "Amazon S3", "Amazon DynamoDB"],
+        "answer": "Amazon ElastiCache",
+        "description": "ElastiCache provides in-memory caching to speed up application performance."
+    },
+    {
+        "question": "What type of database is Amazon S3 best suited for?",
+        "options": ["Relational", "Object", "NoSQL", "Time-series"],
+        "answer": "Object",
+        "description": "Amazon S3 is an object storage service for storing data in the form of objects."
+    },
+    {
+        "question": "Fill in the blank: _________ provides managed MySQL and PostgreSQL databases.",
+        "options": ["Amazon RDS", "Amazon DynamoDB", "Amazon Redshift", "Amazon DocumentDB"],
+        "answer": "Amazon RDS",
+        "description": "Amazon RDS supports managed MySQL and PostgreSQL databases."
+    },
+    {
+        "question": "Which AWS database service is designed for event-driven applications?",
+        "options": ["Amazon S3", "Amazon RDS", "Amazon DynamoDB", "Amazon Kinesis"],
+        "answer": "Amazon DynamoDB",
+        "description": "DynamoDB supports event-driven architectures through Streams."
+    },
+    {
+        "question": "What is the purpose of Amazon RDS Read Replicas?",
+        "options": ["Backup data", "Distribute read traffic", "Enhance security", "Increase write throughput"],
+        "answer": "Distribute read traffic",
+        "description": "Read replicas allow you to scale read traffic for your RDS databases."
+    },
+    {
+        "question": "Fill in the blank: _________ is the service that allows you to query and analyze data in S3 using SQL.",
+        "options": ["Amazon Athena", "Amazon RDS", "Amazon Redshift", "Amazon EMR"],
+        "answer": "Amazon Athena",
+        "description": "Amazon Athena allows users to query S3 data using standard SQL."
+    },
+    {
+        "question": "Which database service provides horizontal scaling by adding more nodes?",
+        "options": ["Amazon RDS", "Amazon DynamoDB", "Amazon Aurora", "Amazon Redshift"],
+        "answer": "Amazon DynamoDB",
+        "description": "DynamoDB supports horizontal scaling by adding more nodes as needed."
+    },
+    {
+        "question": "Fill in the blank: _________ is a serverless database service that scales automatically.",
+        "options": ["Amazon RDS", "Amazon DynamoDB", "Amazon Redshift", "Amazon Aurora"],
+        "answer": "Amazon DynamoDB",
+        "description": "DynamoDB is a serverless database that automatically scales based on demand."
+    },
+    {
+        "question": "What type of database can be managed with AWS Database Migration Service?",
+        "options": ["Only SQL databases", "Only NoSQL databases", "Both SQL and NoSQL databases", "Only relational databases"],
+        "answer": "Both SQL and NoSQL databases",
+        "description": "AWS DMS can migrate both SQL and NoSQL databases."
+    },
+    {
+        "question": "Which of the following is not a supported data type in Amazon RDS?",
+        "options": ["VARCHAR", "BOOLEAN", "XML", "JSONB"],
+        "answer": "JSONB",
+        "description": "JSONB is a PostgreSQL-specific data type, and RDS does not support it as a generic type."
+    },
+    {
+        "question": "Fill in the blank: _________ is an AWS service that helps to optimize queries in a database.",
+        "options": ["Amazon RDS", "Amazon Redshift", "Amazon Athena", "AWS Performance Insights"],
+        "answer": "AWS Performance Insights",
+        "description": "AWS Performance Insights helps analyze the performance of your database queries."
+    },
+    {
+        "question": "Which AWS service is designed to handle large-scale data lakes?",
+        "options": ["Amazon S3", "Amazon RDS", "Amazon DynamoDB", "Amazon Redshift"],
+        "answer": "Amazon S3",
+        "description": "Amazon S3 is ideal for building and managing data lakes at scale."
+    },
+    {
+        "question": "What is the primary purpose of Amazon RDS Event Notifications?",
+        "options": ["Back up data", "Monitor database performance", "Alert users to changes", "Automatically patch the database"],
+        "answer": "Alert users to changes",
+        "description": "RDS Event Notifications provide alerts for specific events related to your RDS instances."
+    },
+    {
+        "question": "Fill in the blank: _________ allows for seamless integration of database queries in application code.",
+        "options": ["Amazon RDS", "AWS Lambda", "AWS AppSync", "Amazon API Gateway"],
+        "answer": "AWS AppSync",
+        "description": "AWS AppSync integrates GraphQL queries into application code for real-time data access."
+    },
+    {
+        "question": "Which of the following is an advantage of using Amazon RDS for SQL databases?",
+        "options": ["Requires manual backups", "Automatic software patching", "Increased complexity", "Manual scaling only"],
+        "answer": "Automatic software patching",
+        "description": "RDS automates software patching for SQL databases."
+    },
+    {
+        "question": "What does Amazon Neptune primarily support?",
+        "options": ["Relational data", "Graph data", "Document data", "In-memory data"],
+        "answer": "Graph data",
+        "description": "Amazon Neptune is designed for graph database applications."
+    },
+    {
+        "question": "Fill in the blank: _________ is the AWS service that helps you run database queries on a serverless architecture.",
+        "options": ["Amazon RDS", "Amazon Athena", "Amazon Redshift", "Amazon DynamoDB"],
+        "answer": "Amazon Athena",
+        "description": "Amazon Athena allows serverless queries on data stored in Amazon S3."
+    },
+    {
+        "question": "What is a characteristic of Amazon DynamoDB?",
+        "options": ["Supports only relational data", "Requires manual scaling", "Offers on-demand backup and restore", "Has fixed performance capacity"],
+        "answer": "Offers on-demand backup and restore",
+        "description": "DynamoDB allows for on-demand backup and restores capabilities."
+    },
+    {
+        "question": "Which service allows for integration of serverless applications with DynamoDB?",
+        "options": ["Amazon API Gateway", "Amazon RDS", "AWS Lambda", "Amazon S3"],
+        "answer": "AWS Lambda",
+        "description": "AWS Lambda functions can be triggered by events in DynamoDB, enabling serverless architectures."
+    },
+    {
+        "question": "Fill in the blank: _________ is an AWS service that helps to create and manage data lakes.",
+        "options": ["Amazon RDS", "Amazon S3", "Amazon Redshift", "Amazon ElastiCache"],
+        "answer": "Amazon S3",
+        "description": "Amazon S3 is ideal for building and managing data lakes for various analytics workloads."
+    }
+]

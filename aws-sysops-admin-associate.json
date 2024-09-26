@@ -1,0 +1,849 @@
+[
+    {
+        "question": "What is the primary purpose of AWS CloudFormation?",
+        "options": ["Automate resource management", "Manage user permissions", "Monitor application performance", "Store data"],
+        "answer": "Automate resource management",
+        "description": "AWS CloudFormation automates the deployment of infrastructure as code."
+    },
+    {
+        "question": "Fill in the blank: _________ is the AWS service that provides a managed NoSQL database.",
+        "options": ["Amazon RDS", "Amazon DynamoDB", "Amazon Redshift", "Amazon Aurora"],
+        "answer": "Amazon DynamoDB",
+        "description": "Amazon DynamoDB is a fully managed NoSQL database service."
+    },
+    {
+        "question": "True or False: AWS CloudTrail is used for monitoring and logging API calls made on your account.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS CloudTrail logs API calls for your AWS account."
+    },
+    {
+        "question": "What is Amazon CloudWatch primarily used for?",
+        "options": ["Data backup", "Monitoring and observability", "Database management", "Networking"],
+        "answer": "Monitoring and observability",
+        "description": "Amazon CloudWatch monitors AWS resources and applications in real-time."
+    },
+    {
+        "question": "Which service is used for managing access to AWS resources?",
+        "options": ["Amazon S3", "AWS Identity and Access Management (IAM)", "Amazon EC2", "Amazon CloudFront"],
+        "answer": "AWS Identity and Access Management (IAM)",
+        "description": "IAM allows you to manage access to AWS services and resources securely."
+    },
+    {
+        "question": "Fill in the blank: _________ is the service used to create and manage virtual private clouds.",
+        "options": ["Amazon VPC", "AWS Direct Connect", "Amazon Route 53", "AWS Lambda"],
+        "answer": "Amazon VPC",
+        "description": "Amazon VPC lets you create a logically isolated network in the AWS cloud."
+    },
+    {
+        "question": "Interview-style: How do you ensure high availability for an application deployed in AWS?",
+        "options": [],
+        "answer": "Use multiple Availability Zones and Auto Scaling to distribute traffic and ensure redundancy.",
+        "description": "High availability involves spreading resources across multiple Availability Zones."
+    },
+    {
+        "question": "What does AWS Elastic Beanstalk provide?",
+        "options": ["Database management", "Serverless computing", "Managed application deployment", "Content delivery"],
+        "answer": "Managed application deployment",
+        "description": "Elastic Beanstalk simplifies the deployment and management of applications."
+    },
+    {
+        "question": "Which AWS service helps in managing the deployment of serverless applications?",
+        "options": ["AWS Lambda", "AWS Elastic Beanstalk", "Amazon EC2", "Amazon RDS"],
+        "answer": "AWS Lambda",
+        "description": "AWS Lambda runs code in response to events without provisioning servers."
+    },
+    {
+        "question": "True or False: AWS Config tracks the configuration history of AWS resources.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Config records the configuration changes of AWS resources."
+    },
+    {
+        "question": "What is the function of AWS Systems Manager?",
+        "options": ["Automating code deployment", "Managing resource configurations", "Monitoring application performance", "Creating virtual networks"],
+        "answer": "Managing resource configurations",
+        "description": "AWS Systems Manager provides operational data and management capabilities."
+    },
+    {
+        "question": "Fill in the blank: _________ is the AWS service used to deliver content to users globally with low latency.",
+        "options": ["Amazon CloudFront", "Amazon S3", "AWS Shield", "Amazon Route 53"],
+        "answer": "Amazon CloudFront",
+        "description": "Amazon CloudFront is a content delivery network (CDN) that distributes content with low latency."
+    },
+    {
+        "question": "Which service provides automatic scaling for AWS resources?",
+        "options": ["AWS Auto Scaling", "Amazon CloudWatch", "AWS Lambda", "Amazon S3"],
+        "answer": "AWS Auto Scaling",
+        "description": "AWS Auto Scaling automatically adjusts capacity to maintain performance."
+    },
+    {
+        "question": "Interview-style: How would you handle a security incident in an AWS environment?",
+        "options": [],
+        "answer": "Follow the incident response plan, review logs with AWS CloudTrail, and contain the issue.",
+        "description": "Effective incident response involves planning, monitoring, and containment."
+    },
+    {
+        "question": "What is AWS Direct Connect used for?",
+        "options": ["Increasing storage capacity", "Establishing a dedicated network connection", "Monitoring application performance", "Managing IAM roles"],
+        "answer": "Establishing a dedicated network connection",
+        "description": "AWS Direct Connect provides a dedicated network connection from your premises to AWS."
+    },
+    {
+        "question": "Fill in the blank: _________ is the service that allows you to manage and automate the deployment of infrastructure.",
+        "options": ["AWS OpsWorks", "Amazon EC2", "AWS CloudFormation", "AWS Lambda"],
+        "answer": "AWS CloudFormation",
+        "description": "AWS CloudFormation automates resource provisioning and management through templates."
+    },
+    {
+        "question": "What does Amazon Route 53 do?",
+        "options": ["Provides database services", "DNS service", "Data storage", "Application hosting"],
+        "answer": "DNS service",
+        "description": "Amazon Route 53 is a scalable DNS web service that routes users to internet applications."
+    },
+    {
+        "question": "True or False: AWS Trusted Advisor provides real-time guidance to help you provision your resources following AWS best practices.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Trusted Advisor helps optimize AWS resources based on best practices."
+    },
+    {
+        "question": "Which AWS service can be used for centralized logging and monitoring?",
+        "options": ["Amazon S3", "AWS CloudTrail", "Amazon CloudWatch", "AWS Config"],
+        "answer": "Amazon CloudWatch",
+        "description": "Amazon CloudWatch provides monitoring and operational insights into AWS resources."
+    },
+    {
+        "question": "Fill in the blank: _________ is the AWS service that simplifies the deployment of machine learning models.",
+        "options": ["Amazon SageMaker", "Amazon EC2", "AWS Lambda", "Amazon RDS"],
+        "answer": "Amazon SageMaker",
+        "description": "Amazon SageMaker is a fully managed service for building, training, and deploying machine learning models."
+    },
+    {
+        "question": "What is the purpose of AWS Shield?",
+        "options": ["Data storage", "DDoS protection", "Application monitoring", "Load balancing"],
+        "answer": "DDoS protection",
+        "description": "AWS Shield provides protection against Distributed Denial of Service (DDoS) attacks."
+    },
+    {
+        "question": "Interview-style: How would you implement multi-region architecture in AWS?",
+        "options": [],
+        "answer": "Deploy resources in multiple regions and use Route 53 for traffic routing and failover.",
+        "description": "Multi-region architecture increases availability and fault tolerance."
+    },
+    {
+        "question": "True or False: AWS CodeDeploy is a service for automating code deployments to Amazon EC2 instances.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS CodeDeploy automates the application deployment to EC2 instances and on-premises servers."
+    },
+    {
+        "question": "Which AWS service is primarily used for orchestrating containers?",
+        "options": ["Amazon ECS", "Amazon S3", "AWS Lambda", "Amazon EC2"],
+        "answer": "Amazon ECS",
+        "description": "Amazon ECS (Elastic Container Service) is used for running and managing Docker containers."
+    },
+    {
+        "question": "Fill in the blank: _________ provides a way to manage service limits in AWS.",
+        "options": ["AWS Support", "AWS Budgets", "AWS Service Quotas", "AWS CloudFormation"],
+        "answer": "AWS Service Quotas",
+        "description": "AWS Service Quotas helps you manage and monitor your service limits."
+    },
+    {
+        "question": "What is the function of AWS OpsWorks?",
+        "options": ["Database management", "Application deployment", "Configuration management", "Data backup"],
+        "answer": "Configuration management",
+        "description": "AWS OpsWorks provides a configuration management service using Chef and Puppet."
+    },
+    {
+        "question": "Interview-style: How do you ensure data security in AWS?",
+        "options": [],
+        "answer": "Use IAM for access control, encrypt data at rest and in transit, and implement logging.",
+        "description": "Data security involves a combination of access management and encryption."
+    },
+    {
+        "question": "True or False: AWS Elastic Beanstalk automatically handles the deployment, from capacity provisioning to load balancing.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Elastic Beanstalk automates the deployment and scaling of applications."
+    },
+    {
+        "question": "Which AWS service allows you to deploy a REST API?",
+        "options": ["Amazon EC2", "AWS Lambda", "Amazon API Gateway", "Amazon S3"],
+        "answer": "Amazon API Gateway",
+        "description": "Amazon API Gateway is used to create, publish, maintain, and monitor REST APIs."
+    },
+    {
+        "question": "Fill in the blank: _________ is a serverless data warehouse service provided by AWS.",
+        "options": ["Amazon RDS", "Amazon Redshift", "Amazon S3", "AWS Lambda"],
+        "answer": "Amazon Redshift",
+        "description": "Amazon Redshift is a fully managed, petabyte-scale data warehouse service."
+    },
+    {
+        "question": "What service can be used to automate the deployment of applications across multiple EC2 instances?",
+        "options": ["AWS CloudFormation", "AWS CodePipeline", "AWS CodeDeploy", "Amazon EC2"],
+        "answer": "AWS CodeDeploy",
+        "description": "AWS CodeDeploy automates code deployments to Amazon EC2 instances and on-premises servers."
+    },
+    {
+        "question": "True or False: Amazon S3 is an object storage service that offers high durability and availability.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "Amazon S3 provides scalable object storage with high durability and availability."
+    },
+    {
+        "question": "Fill in the blank: _________ is the AWS service that helps you create and manage a scalable file storage system.",
+        "options": ["Amazon EFS", "Amazon S3", "AWS Storage Gateway", "AWS Backup"],
+        "answer": "Amazon EFS",
+        "description": "Amazon EFS (Elastic File System) provides scalable file storage for use with AWS Cloud services."
+    },
+    {
+        "question": "Which AWS service can be used to orchestrate complex workflows?",
+        "options": ["AWS Step Functions", "AWS Lambda", "Amazon EC2", "Amazon RDS"],
+        "answer": "AWS Step Functions",
+        "description": "AWS Step Functions lets you coordinate multiple AWS services into serverless workflows."
+    },
+    {
+        "question": "Interview-style: What steps would you take to recover from a region-wide outage?",
+        "options": [],
+        "answer": "Implement failover to another region, ensure backups are available, and use Route 53 for DNS failover.",
+        "description": "Recovery from an outage involves planning for redundancy and failover strategies."
+    },
+    {
+        "question": "Which AWS service allows you to manage and analyze large datasets using SQL?",
+        "options": ["Amazon RDS", "Amazon Athena", "Amazon EMR", "Amazon Redshift"],
+        "answer": "Amazon Athena",
+        "description": "Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL."
+    },
+    {
+        "question": "Fill in the blank: _________ is a fully managed extract, transform, load (ETL) service provided by AWS.",
+        "options": ["AWS Glue", "Amazon EMR", "Amazon RDS", "AWS Data Pipeline"],
+        "answer": "AWS Glue",
+        "description": "AWS Glue is a serverless ETL service that makes it easy to prepare data for analytics."
+    },
+    {
+        "question": "True or False: AWS Backup automates backup scheduling and retention management for AWS resources.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Backup automates backup scheduling and retention for various AWS services."
+    },
+    {
+        "question": "Which service can be used to control access to AWS resources at the API level?",
+        "options": ["AWS IAM", "AWS Organizations", "AWS Budgets", "Amazon VPC"],
+        "answer": "AWS IAM",
+        "description": "AWS Identity and Access Management (IAM) allows control over access to AWS resources."
+    },
+    {
+        "question": "Fill in the blank: _________ is used to manage relationships between AWS accounts.",
+        "options": ["AWS Organizations", "AWS IAM", "AWS Config", "AWS CloudTrail"],
+        "answer": "AWS Organizations",
+        "description": "AWS Organizations enables account management and governance at scale."
+    },
+    {
+        "question": "What does AWS Trusted Advisor provide?",
+        "options": ["Data analysis", "Resource optimization recommendations", "Cost management", "Service limits"],
+        "answer": "Resource optimization recommendations",
+        "description": "AWS Trusted Advisor provides best practice recommendations for AWS accounts."
+    },
+    {
+        "question": "Interview-style: How would you implement security best practices in an AWS environment?",
+        "options": [],
+        "answer": "Use IAM for fine-grained access control, enable logging with CloudTrail, and enforce encryption for data at rest and in transit.",
+        "description": "Security best practices involve multiple layers of protection and continuous monitoring."
+    },
+    {
+        "question": "True or False: Amazon RDS supports multiple database engines including MySQL, PostgreSQL, and Oracle.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "Amazon RDS provides multiple database engines to meet different application needs."
+    },
+    {
+        "question": "Fill in the blank: _________ is the AWS service used for storing and querying logs.",
+        "options": ["Amazon S3", "Amazon CloudWatch Logs", "AWS Config", "Amazon EC2"],
+        "answer": "Amazon CloudWatch Logs",
+        "description": "Amazon CloudWatch Logs enables you to monitor, store, and access log files from Amazon EC2."
+    },
+    {
+        "question": "Which service can be used for distributing incoming application traffic?",
+        "options": ["Amazon CloudFront", "AWS Application Load Balancer", "AWS Direct Connect", "Amazon VPC"],
+        "answer": "AWS Application Load Balancer",
+        "description": "AWS Application Load Balancer distributes incoming application traffic across multiple targets."
+    },
+    {
+        "question": "Fill in the blank: _________ is a managed service for running Apache Spark and Hadoop clusters.",
+        "options": ["Amazon EMR", "Amazon EC2", "AWS Lambda", "AWS Glue"],
+        "answer": "Amazon EMR",
+        "description": "Amazon EMR (Elastic MapReduce) makes it easy to process large amounts of data quickly."
+    },
+    {
+        "question": "Interview-style: How do you troubleshoot performance issues in an AWS application?",
+        "options": [],
+        "answer": "Check CloudWatch metrics, review application logs, and analyze resource usage for bottlenecks.",
+        "description": "Troubleshooting involves systematic checking of metrics and logs to identify performance issues."
+    },
+    {
+        "question": "True or False: AWS WAF helps protect applications from common web exploits.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Web Application Firewall (WAF) helps protect web applications from common attacks."
+    },
+    {
+        "question": "Which service can you use to create and manage SSL/TLS certificates?",
+        "options": ["AWS Certificate Manager", "AWS CloudFront", "AWS IAM", "Amazon Route 53"],
+        "answer": "AWS Certificate Manager",
+        "description": "AWS Certificate Manager lets you provision and manage SSL/TLS certificates."
+    },
+    {
+        "question": "Fill in the blank: _________ is the service that enables you to create an isolated environment for your AWS resources.",
+        "options": ["AWS CloudFormation", "AWS VPC", "AWS IAM", "AWS Lambda"],
+        "answer": "AWS VPC",
+        "description": "AWS Virtual Private Cloud (VPC) allows you to create a logically isolated network in AWS."
+    },
+    {
+        "question": "What does Amazon S3 Glacier provide?",
+        "options": ["High-performance computing", "Long-term data archiving", "Content delivery", "Web hosting"],
+        "answer": "Long-term data archiving",
+        "description": "Amazon S3 Glacier is a low-cost cloud storage service for data archiving and long-term backup."
+    },
+    {
+        "question": "Interview-style: What is your approach to manage costs in AWS?",
+        "options": [],
+        "answer": "Use AWS Budgets to set limits, monitor usage with CloudWatch, and right-size resources based on needs.",
+        "description": "Cost management involves budgeting, monitoring, and adjusting resource usage."
+    },
+    {
+        "question": "True or False: AWS Secrets Manager is used for managing sensitive information such as API keys and passwords.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Secrets Manager securely stores and manages sensitive information."
+    },
+    {
+        "question": "Fill in the blank: _________ is a managed Kubernetes service provided by AWS.",
+        "options": ["Amazon ECS", "Amazon EKS", "AWS Fargate", "AWS Lambda"],
+        "answer": "Amazon EKS",
+        "description": "Amazon EKS (Elastic Kubernetes Service) simplifies running Kubernetes on AWS."
+    },
+    {
+        "question": "Which AWS service helps you to automate software release processes?",
+        "options": ["AWS CodePipeline", "AWS CodeCommit", "AWS CodeDeploy", "AWS CodeBuild"],
+        "answer": "AWS CodePipeline",
+        "description": "AWS CodePipeline automates the build, test, and release process for applications."
+    },
+    {
+        "question": "Fill in the blank: _________ allows you to deploy serverless applications using functions.",
+        "options": ["Amazon EC2", "AWS Lambda", "AWS CodeDeploy", "AWS Step Functions"],
+        "answer": "AWS Lambda",
+        "description": "AWS Lambda lets you run code without provisioning or managing servers."
+    },
+    {
+        "question": "True or False: AWS Config helps you track configuration changes in your AWS environment.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Config tracks the configuration history of your AWS resources."
+    },
+    {
+        "question": "Which service provides a dedicated connection from your on-premises network to AWS?",
+        "options": ["AWS Direct Connect", "Amazon VPN", "AWS Transit Gateway", "Amazon VPC Peering"],
+        "answer": "AWS Direct Connect",
+        "description": "AWS Direct Connect provides a dedicated network connection from your premises to AWS."
+    },
+    {
+        "question": "Fill in the blank: _________ is the AWS service used for creating a global content delivery network.",
+        "options": ["Amazon CloudFront", "AWS Global Accelerator", "AWS Route 53", "Amazon S3"],
+        "answer": "Amazon CloudFront",
+        "description": "Amazon CloudFront is a fast content delivery network (CDN) service."
+    },
+    {
+        "question": "Which service is best for batch processing of large volumes of data?",
+        "options": ["AWS Lambda", "Amazon EC2", "Amazon EMR", "AWS Batch"],
+        "answer": "AWS Batch",
+        "description": "AWS Batch enables you to run batch computing workloads on AWS."
+    },
+    {
+        "question": "Fill in the blank: _________ is the service that helps you manage and secure application-level secrets.",
+        "options": ["AWS Secrets Manager", "AWS IAM", "AWS CloudTrail", "AWS Config"],
+        "answer": "AWS Secrets Manager",
+        "description": "AWS Secrets Manager enables you to store, retrieve, and rotate database credentials, API keys, and other secrets."
+    },
+    {
+        "question": "True or False: AWS CloudTrail records API calls made on your account.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS CloudTrail logs and monitors account activity across your AWS infrastructure."
+    },
+    {
+        "question": "What is the primary benefit of using AWS Elastic Load Balancing?",
+        "options": ["Static IP addresses", "High availability", "Reduced latency", "Fewer server resources"],
+        "answer": "High availability",
+        "description": "Elastic Load Balancing automatically distributes incoming traffic across multiple targets for high availability."
+    },
+    {
+        "question": "Which AWS service is used to automate the management of EC2 instances?",
+        "options": ["AWS CloudFormation", "AWS OpsWorks", "AWS CodeDeploy", "Amazon EC2"],
+        "answer": "AWS OpsWorks",
+        "description": "AWS OpsWorks is a configuration management service that provides managed instances of Chef and Puppet."
+    },
+    {
+        "question": "Fill in the blank: _________ is a service that allows you to connect your on-premises data center to AWS.",
+        "options": ["AWS VPN", "Amazon S3", "AWS Direct Connect", "Amazon Route 53"],
+        "answer": "AWS Direct Connect",
+        "description": "AWS Direct Connect establishes a dedicated network connection from your premises to AWS."
+    },
+    {
+        "question": "What service can be used to monitor the health of AWS resources?",
+        "options": ["Amazon CloudWatch", "AWS Config", "AWS CloudTrail", "AWS Systems Manager"],
+        "answer": "Amazon CloudWatch",
+        "description": "Amazon CloudWatch provides monitoring and observability for AWS resources and applications."
+    },
+    {
+        "question": "Which AWS service provides a fully managed service for setting up a relational database?",
+        "options": ["Amazon RDS", "Amazon DynamoDB", "Amazon Redshift", "Amazon Aurora"],
+        "answer": "Amazon RDS",
+        "description": "Amazon RDS (Relational Database Service) simplifies the setup and management of relational databases."
+    },
+    {
+        "question": "Fill in the blank: _________ is an AWS service used to create, manage, and deploy containers.",
+        "options": ["AWS Lambda", "Amazon ECS", "Amazon EC2", "AWS Batch"],
+        "answer": "Amazon ECS",
+        "description": "Amazon ECS (Elastic Container Service) is used to run and manage Docker containers on AWS."
+    },
+    {
+        "question": "Which service helps manage encryption keys used to encrypt your data?",
+        "options": ["AWS IAM", "AWS CloudTrail", "AWS KMS", "AWS Config"],
+        "answer": "AWS KMS",
+        "description": "AWS Key Management Service (KMS) allows you to create and control the encryption keys used to encrypt your data."
+    },
+    {
+        "question": "What is the purpose of AWS CloudTrail?",
+        "options": ["Monitoring resource performance", "Logging API calls", "Managing network traffic", "Handling database operations"],
+        "answer": "Logging API calls",
+        "description": "AWS CloudTrail records AWS API calls for your account and delivers log files to an Amazon S3 bucket."
+    },
+    {
+        "question": "Fill in the blank: _________ is the AWS service used for data archiving and long-term backup.",
+        "options": ["Amazon S3", "AWS Backup", "Amazon S3 Glacier", "AWS Data Pipeline"],
+        "answer": "Amazon S3 Glacier",
+        "description": "Amazon S3 Glacier provides secure, durable, and low-cost storage for data archiving."
+    },
+    {
+        "question": "Which AWS service is used for building serverless applications?",
+        "options": ["Amazon EC2", "AWS Lambda", "Amazon RDS", "AWS Fargate"],
+        "answer": "AWS Lambda",
+        "description": "AWS Lambda lets you run code without provisioning or managing servers."
+    },
+    {
+        "question": "True or False: AWS Config helps track configuration changes to AWS resources over time.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Config provides AWS resource inventory, configuration history, and configuration change notifications."
+    },
+    {
+        "question": "Fill in the blank: _________ is a managed service for setting up a data lake.",
+        "options": ["AWS Lake Formation", "Amazon S3", "Amazon Redshift", "AWS Glue"],
+        "answer": "AWS Lake Formation",
+        "description": "AWS Lake Formation simplifies the process of building and securing a data lake."
+    },
+    {
+        "question": "Which service provides a way to deploy updates to applications running on EC2?",
+        "options": ["AWS CodePipeline", "AWS CodeDeploy", "AWS Lambda", "Amazon RDS"],
+        "answer": "AWS CodeDeploy",
+        "description": "AWS CodeDeploy automates the deployment of applications to Amazon EC2 instances."
+    },
+    {
+        "question": "What is the primary use of AWS CloudFormation?",
+        "options": ["Creating virtual servers", "Automating deployments", "Infrastructure as code", "Monitoring resource performance"],
+        "answer": "Infrastructure as code",
+        "description": "AWS CloudFormation provides a way to model and set up your AWS resources as code."
+    },
+    {
+        "question": "Fill in the blank: _________ allows you to create and manage DNS records for your domain names.",
+        "options": ["Amazon CloudFront", "AWS Route 53", "AWS Elastic Beanstalk", "AWS AppSync"],
+        "answer": "AWS Route 53",
+        "description": "AWS Route 53 is a scalable and highly available domain name system (DNS) web service."
+    },
+    {
+        "question": "Which AWS service allows for monitoring and managing AWS costs?",
+        "options": ["AWS Budgets", "AWS CloudTrail", "AWS Cost Explorer", "AWS IAM"],
+        "answer": "AWS Cost Explorer",
+        "description": "AWS Cost Explorer lets you view and analyze your costs and usage over time."
+    },
+    {
+        "question": "True or False: Amazon Aurora is a fully managed NoSQL database service.",
+        "options": ["True", "False"],
+        "answer": "False",
+        "description": "Amazon Aurora is a relational database service compatible with MySQL and PostgreSQL."
+    },
+    {
+        "question": "Fill in the blank: _________ provides a scalable and secure file storage solution for AWS.",
+        "options": ["Amazon EFS", "Amazon S3", "AWS Lambda", "AWS Snowball"],
+        "answer": "Amazon EFS",
+        "description": "Amazon Elastic File System (EFS) provides scalable file storage for use with AWS Cloud services."
+    },
+    {
+        "question": "What AWS service is used to create an isolated network for your AWS resources?",
+        "options": ["AWS VPC", "Amazon CloudFront", "AWS IAM", "AWS CodePipeline"],
+        "answer": "AWS VPC",
+        "description": "AWS Virtual Private Cloud (VPC) lets you create a logically isolated network within AWS."
+    },
+    {
+        "question": "Fill in the blank: _________ helps to ensure that your application remains highly available across multiple availability zones.",
+        "options": ["Amazon EC2", "AWS Auto Scaling", "AWS Lambda", "Amazon S3"],
+        "answer": "AWS Auto Scaling",
+        "description": "AWS Auto Scaling helps ensure that you have the right number of Amazon EC2 instances available."
+    },
+    {
+        "question": "Which AWS service helps manage the provisioning and deployment of applications?",
+        "options": ["AWS CodePipeline", "AWS CloudFormation", "AWS OpsWorks", "AWS CodeDeploy"],
+        "answer": "AWS OpsWorks",
+        "description": "AWS OpsWorks is a configuration management service that provides managed instances of Chef and Puppet."
+    },
+    {
+        "question": "True or False: Amazon RDS can automatically backup your database instances.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "Amazon RDS provides automated backups for database instances, ensuring data durability."
+    },
+    {
+        "question": "What is the main benefit of using Amazon CloudFront?",
+        "options": ["Data storage", "Load balancing", "Content delivery", "Database management"],
+        "answer": "Content delivery",
+        "description": "Amazon CloudFront is a content delivery network (CDN) that delivers data, videos, applications, and APIs securely."
+    },
+    {
+        "question": "Fill in the blank: _________ is a managed NoSQL database service provided by AWS.",
+        "options": ["Amazon RDS", "Amazon DynamoDB", "Amazon Aurora", "Amazon S3"],
+        "answer": "Amazon DynamoDB",
+        "description": "Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance."
+    },
+    {
+        "question": "Which service provides a unified view of your AWS resources?",
+        "options": ["AWS Management Console", "AWS Config", "AWS CloudTrail", "AWS Trusted Advisor"],
+        "answer": "AWS Management Console",
+        "description": "The AWS Management Console is a web-based interface for managing AWS services and resources."
+    },
+    {
+        "question": "Fill in the blank: _________ enables you to run code in response to events without provisioning servers.",
+        "options": ["AWS Lambda", "Amazon EC2", "AWS CodeDeploy", "Amazon S3"],
+        "answer": "AWS Lambda",
+        "description": "AWS Lambda lets you run code without provisioning or managing servers, making it easy to build applications."
+    },
+    {
+        "question": "What is the purpose of AWS Service Catalog?",
+        "options": ["Managing resources", "Creating and managing portfolios of AWS resources", "Monitoring application performance", "Building serverless applications"],
+        "answer": "Creating and managing portfolios of AWS resources",
+        "description": "AWS Service Catalog allows organizations to create and manage catalogs of IT services."
+    },
+    {
+        "question": "Fill in the blank: _________ is an AWS service used for storing large amounts of unstructured data.",
+        "options": ["Amazon S3", "AWS EBS", "AWS Glue", "Amazon RDS"],
+        "answer": "Amazon S3",
+        "description": "Amazon S3 is an object storage service that offers industry-leading scalability, data availability, security, and performance."
+    },
+    {
+        "question": "Which service provides real-time data streaming and analytics?",
+        "options": ["AWS Lambda", "Amazon Kinesis", "Amazon S3", "AWS Step Functions"],
+        "answer": "Amazon Kinesis",
+        "description": "Amazon Kinesis enables you to collect, process, and analyze real-time, streaming data."
+    },
+    {
+        "question": "Fill in the blank: _________ is a web service that helps you with managing your AWS costs and usage.",
+        "options": ["AWS CloudFormation", "AWS Budgets", "AWS IAM", "AWS CloudTrail"],
+        "answer": "AWS Budgets",
+        "description": "AWS Budgets enables you to set custom cost and usage budgets that alert you when you exceed your thresholds."
+    },
+    {
+        "question": "True or False: AWS Systems Manager provides a unified interface for managing your AWS resources.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Systems Manager provides visibility and control of your infrastructure on AWS."
+    },
+    {
+        "question": "Fill in the blank: _________ allows you to run containerized applications in a managed Kubernetes environment.",
+        "options": ["Amazon ECS", "AWS Fargate", "Amazon EKS", "AWS Batch"],
+        "answer": "Amazon EKS",
+        "description": "Amazon EKS (Elastic Kubernetes Service) is a managed service for running Kubernetes on AWS."
+    },
+    {
+        "question": "What AWS service is designed for serverless application development?",
+        "options": ["AWS Lambda", "Amazon EC2", "Amazon Lightsail", "AWS Fargate"],
+        "answer": "AWS Lambda",
+        "description": "AWS Lambda allows you to run code in response to events and automatically manages the compute resources."
+    },
+    {
+        "question": "Fill in the blank: _________ provides a way to automate the provisioning of AWS resources.",
+        "options": ["AWS CloudFormation", "AWS Lambda", "AWS CodePipeline", "AWS Elastic Beanstalk"],
+        "answer": "AWS CloudFormation",
+        "description": "AWS CloudFormation allows you to define and provision AWS infrastructure using templates."
+    },
+    {
+        "question": "Which service helps manage application dependencies and versions?",
+        "options": ["AWS CodeDeploy", "AWS CodePipeline", "AWS CodeBuild", "AWS CodeCommit"],
+        "answer": "AWS CodeBuild",
+        "description": "AWS CodeBuild is a fully managed build service that compiles source code, runs tests, and produces software packages."
+    },
+    {
+        "question": "Fill in the blank: _________ helps you easily deploy applications in a managed environment.",
+        "options": ["AWS CodeDeploy", "AWS Elastic Beanstalk", "AWS Lambda", "Amazon ECS"],
+        "answer": "AWS Elastic Beanstalk",
+        "description": "AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications."
+    },
+    {
+        "question": "Which AWS service is used to create a scalable storage solution for block-level data?",
+        "options": ["Amazon EFS", "Amazon S3", "AWS Lambda", "Amazon EBS"],
+        "answer": "Amazon EBS",
+        "description": "Amazon Elastic Block Store (EBS) provides block storage volumes for use with Amazon EC2 instances."
+    },
+    {
+        "question": "True or False: Amazon S3 provides durable storage for frequently accessed data.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "Amazon S3 provides 99.999999999% durability for objects stored in the service."
+    },
+    {
+        "question": "Fill in the blank: _________ is a fully managed data warehouse service.",
+        "options": ["Amazon RDS", "Amazon Redshift", "Amazon DynamoDB", "AWS Glue"],
+        "answer": "Amazon Redshift",
+        "description": "Amazon Redshift is a fully managed data warehouse that makes it simple and cost-effective to analyze all your data."
+    },
+    {
+        "question": "Which service helps in configuring and managing hybrid environments?",
+        "options": ["AWS Direct Connect", "AWS Transit Gateway", "AWS VPC", "AWS Systems Manager"],
+        "answer": "AWS Transit Gateway",
+        "description": "AWS Transit Gateway connects your VPCs and on-premises networks through a central hub."
+    },
+    {
+        "question": "Fill in the blank: _________ helps you manage the lifecycle of your AWS resources.",
+        "options": ["AWS Config", "AWS CloudTrail", "AWS CloudFormation", "AWS Systems Manager"],
+        "answer": "AWS Config",
+        "description": "AWS Config provides you with AWS resource inventory, configuration history, and configuration change notifications."
+    },
+    {
+        "question": "Which service provides a central place to manage AWS IAM policies and users?",
+        "options": ["AWS CloudTrail", "AWS IAM", "AWS Organizations", "AWS Config"],
+        "answer": "AWS IAM",
+        "description": "AWS Identity and Access Management (IAM) allows you to manage access to AWS services and resources securely."
+    },
+    {
+        "question": "Fill in the blank: _________ is an AWS service that automates the backup of AWS resources.",
+        "options": ["AWS Backup", "AWS Lambda", "Amazon EC2", "Amazon S3"],
+        "answer": "AWS Backup",
+        "description": "AWS Backup automates the backup of AWS resources across various services."
+    },
+    {
+        "question": "Which AWS service allows you to create workflows that connect multiple AWS services?",
+        "options": ["AWS Step Functions", "AWS Lambda", "Amazon EC2", "AWS CodePipeline"],
+        "answer": "AWS Step Functions",
+        "description": "AWS Step Functions lets you coordinate multiple AWS services into serverless workflows."
+    },
+    {
+        "question": "Fill in the blank: _________ provides real-time monitoring and logging of AWS resources.",
+        "options": ["Amazon CloudWatch", "AWS CloudTrail", "AWS Config", "AWS Systems Manager"],
+        "answer": "Amazon CloudWatch",
+        "description": "Amazon CloudWatch monitors your AWS resources and applications in real time."
+    },
+    {
+        "question": "True or False: AWS Auto Scaling can automatically adjust the number of EC2 instances based on demand.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Auto Scaling automatically adjusts capacity to maintain steady, predictable performance."
+    },
+    {
+        "question": "Which AWS service is used to streamline data preparation for analytics?",
+        "options": ["AWS Glue", "Amazon Redshift", "AWS Lambda", "Amazon S3"],
+        "answer": "AWS Glue",
+        "description": "AWS Glue is a fully managed ETL (extract, transform, load) service that makes it easy to prepare your data for analytics."
+    },
+    {
+        "question": "Fill in the blank: _________ is a fully managed service that provides machine learning capabilities.",
+        "options": ["AWS SageMaker", "AWS Lambda", "AWS Batch", "Amazon RDS"],
+        "answer": "AWS SageMaker",
+        "description": "AWS SageMaker is a fully managed service that provides tools for building, training, and deploying machine learning models."
+    },
+    {
+        "question": "Which service can be used to create and manage RESTful APIs?",
+        "options": ["Amazon API Gateway", "AWS CloudFormation", "AWS Lambda", "Amazon EC2"],
+        "answer": "Amazon API Gateway",
+        "description": "Amazon API Gateway is a fully managed service that makes it easy to create, publish, maintain, monitor, and secure APIs."
+    },
+    {
+        "question": "Fill in the blank: _________ provides tools to migrate databases to AWS.",
+        "options": ["AWS Database Migration Service", "AWS Lambda", "Amazon EC2", "AWS CodeDeploy"],
+        "answer": "AWS Database Migration Service",
+        "description": "AWS Database Migration Service helps you migrate databases to AWS quickly and securely."
+    },
+    {
+        "question": "True or False: AWS Shield provides protection against DDoS attacks.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Shield is a managed DDoS protection service that safeguards applications running on AWS."
+    },
+    {
+        "question": "Which AWS service helps automate deployment pipelines for continuous integration and delivery?",
+        "options": ["AWS CodePipeline", "AWS CloudFormation", "AWS CodeDeploy", "AWS CodeBuild"],
+        "answer": "AWS CodePipeline",
+        "description": "AWS CodePipeline automates the build, test, and release process for your applications."
+    },
+    {
+        "question": "Fill in the blank: _________ allows you to search for resources in AWS based on tags.",
+        "options": ["AWS Resource Groups", "AWS CloudTrail", "AWS Config", "AWS Systems Manager"],
+        "answer": "AWS Resource Groups",
+        "description": "AWS Resource Groups allows you to manage and automate tasks on multiple AWS resources at once."
+    },
+    {
+        "question": "What is the function of AWS Artifact?",
+        "options": ["Managing IAM policies", "Downloading compliance reports", "Creating security groups", "Configuring VPCs"],
+        "answer": "Downloading compliance reports",
+        "description": "AWS Artifact provides on-demand access to AWS compliance documentation and AWS agreements."
+    },
+    {
+        "question": "Fill in the blank: _________ is used to create a virtual private cloud (VPC) in AWS.",
+        "options": ["AWS Direct Connect", "AWS CloudFormation", "AWS VPC", "AWS Lambda"],
+        "answer": "AWS VPC",
+        "description": "AWS VPC allows you to provision a logically isolated section of the AWS cloud where you can launch AWS resources."
+    },
+    {
+        "question": "True or False: Amazon RDS supports only relational databases.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "Amazon RDS is a managed service for relational databases such as MySQL, PostgreSQL, and Oracle."
+    },
+    {
+        "question": "Which AWS service is used for log management and analysis?",
+        "options": ["Amazon CloudWatch", "AWS Config", "AWS CloudTrail", "AWS Systems Manager"],
+        "answer": "Amazon CloudWatch",
+        "description": "Amazon CloudWatch provides monitoring and logging for AWS resources and applications."
+    },
+    {
+        "question": "Fill in the blank: _________ is a service that helps you manage serverless applications.",
+        "options": ["AWS Lambda", "AWS Elastic Beanstalk", "AWS Fargate", "Amazon EC2"],
+        "answer": "AWS Lambda",
+        "description": "AWS Lambda allows you to run code in response to events without provisioning or managing servers."
+    },
+    {
+        "question": "Which service can be used to schedule tasks to run at specific intervals?",
+        "options": ["AWS Batch", "AWS Step Functions", "Amazon EC2", "Amazon CloudWatch Events"],
+        "answer": "Amazon CloudWatch Events",
+        "description": "Amazon CloudWatch Events enables you to set up rules to automatically trigger actions in response to events."
+    },
+    {
+        "question": "Fill in the blank: _________ is a fully managed message queuing service.",
+        "options": ["Amazon SNS", "Amazon SQS", "AWS Lambda", "Amazon Kinesis"],
+        "answer": "Amazon SQS",
+        "description": "Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables decoupling of microservices."
+    },
+    {
+        "question": "True or False: AWS Config provides real-time resource monitoring.",
+        "options": ["True", "False"],
+        "answer": "False",
+        "description": "AWS Config provides a detailed view of the configuration of AWS resources, but it does not provide real-time monitoring."
+    },
+    {
+        "question": "What is the purpose of AWS Secrets Manager?",
+        "options": ["Storing IAM users", "Managing API keys", "Storing and retrieving sensitive information", "Creating IAM policies"],
+        "answer": "Storing and retrieving sensitive information",
+        "description": "AWS Secrets Manager helps you protect access to your applications, services, and IT resources without the upfront investment."
+    },
+    {
+        "question": "Fill in the blank: _________ is a managed service for creating and deploying chatbots.",
+        "options": ["Amazon Lex", "Amazon Polly", "Amazon Rekognition", "AWS Lambda"],
+        "answer": "Amazon Lex",
+        "description": "Amazon Lex is a service for building conversational interfaces into any application using voice and text."
+    },
+    {
+        "question": "Which service provides a fully managed document database that supports MongoDB workloads?",
+        "options": ["Amazon RDS", "Amazon DynamoDB", "Amazon DocumentDB", "AWS Aurora"],
+        "answer": "Amazon DocumentDB",
+        "description": "Amazon DocumentDB is a fully managed document database service that is compatible with MongoDB."
+    },
+    {
+        "question": "Fill in the blank: _________ provides a scalable way to store and query structured data.",
+        "options": ["Amazon DynamoDB", "Amazon S3", "Amazon RDS", "Amazon EFS"],
+        "answer": "Amazon RDS",
+        "description": "Amazon RDS makes it easy to set up, operate, and scale a relational database in the cloud."
+    },
+    {
+        "question": "What is the primary purpose of AWS WAF?",
+        "options": ["Monitoring network traffic", "Creating VPCs", "Web application firewall", "Load balancing"],
+        "answer": "Web application firewall",
+        "description": "AWS WAF is a web application firewall that helps protect your web applications from common web exploits."
+    },
+    {
+        "question": "Fill in the blank: _________ is used to manage cloud resources through an API.",
+        "options": ["AWS Management Console", "AWS CLI", "AWS SDK", "AWS CloudFormation"],
+        "answer": "AWS SDK",
+        "description": "AWS SDKs provide a set of tools for building applications that utilize AWS services."
+    },
+    {
+        "question": "True or False: AWS Identity and Access Management (IAM) allows for creating users and managing permissions.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS IAM enables you to manage access to AWS services and resources securely."
+    },
+    {
+        "question": "Which service provides an easy way to run Jupyter notebooks on AWS?",
+        "options": ["AWS Glue", "Amazon SageMaker", "AWS Lambda", "Amazon EC2"],
+        "answer": "Amazon SageMaker",
+        "description": "Amazon SageMaker provides fully managed Jupyter notebooks for building, training, and deploying machine learning models."
+    },
+    {
+        "question": "Fill in the blank: _________ provides real-time notifications of changes to AWS resources.",
+        "options": ["AWS CloudTrail", "Amazon SNS", "AWS Config", "Amazon CloudWatch"],
+        "answer": "AWS CloudWatch",
+        "description": "Amazon CloudWatch can send notifications based on alarms that monitor AWS resources."
+    },
+    {
+        "question": "What is the main function of AWS CodeCommit?",
+        "options": ["Managing IAM policies", "Version control for code", "Automating deployments", "Monitoring cloud resources"],
+        "answer": "Version control for code",
+        "description": "AWS CodeCommit is a fully managed source control service that makes it easy for teams to host secure and scalable Git repositories."
+    },
+    {
+        "question": "Fill in the blank: _________ is a service that enables you to create and manage a domain name.",
+        "options": ["AWS Route 53", "AWS CloudFront", "AWS Elastic Load Balancing", "Amazon VPC"],
+        "answer": "AWS Route 53",
+        "description": "AWS Route 53 is a scalable domain name system (DNS) web service designed to provide highly reliable and cost-effective domain name registration."
+    },
+    {
+        "question": "True or False: AWS Organizations helps you manage multiple AWS accounts.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS Organizations allows you to create groups of AWS accounts and centrally manage them."
+    },
+    {
+        "question": "Which service provides the ability to create custom machine learning models?",
+        "options": ["Amazon SageMaker", "AWS Lambda", "AWS Glue", "AWS CodeDeploy"],
+        "answer": "Amazon SageMaker",
+        "description": "Amazon SageMaker provides tools to build, train, and deploy machine learning models quickly."
+    },
+    {
+        "question": "Fill in the blank: _________ is used to visualize application performance.",
+        "options": ["AWS CloudTrail", "Amazon CloudWatch", "AWS Config", "AWS Systems Manager"],
+        "answer": "Amazon CloudWatch",
+        "description": "Amazon CloudWatch provides a unified view of your applications and infrastructure performance."
+    },
+    {
+        "question": "What is the purpose of AWS Data Pipeline?",
+        "options": ["Batch processing of data", "Streaming data", "File storage", "Content delivery"],
+        "answer": "Batch processing of data",
+        "description": "AWS Data Pipeline is a web service that helps you process and move data between different AWS compute and storage services."
+    },
+    {
+        "question": "Fill in the blank: _________ is used to provide a dedicated network connection from your premises to AWS.",
+        "options": ["AWS Direct Connect", "AWS VPN", "AWS Transit Gateway", "Amazon CloudFront"],
+        "answer": "AWS Direct Connect",
+        "description": "AWS Direct Connect makes it easy to establish a dedicated network connection from your premises to AWS."
+    },
+    {
+        "question": "True or False: AWS AppSync allows you to build GraphQL APIs.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "description": "AWS AppSync makes it easy to develop GraphQL APIs by handling the heavy lifting of data management."
+    },
+    {
+        "question": "Which service is used for real-time notifications and messaging?",
+        "options": ["Amazon SQS", "Amazon SNS", "AWS Lambda", "Amazon Kinesis"],
+        "answer": "Amazon SNS",
+        "description": "Amazon Simple Notification Service (SNS) is a fully managed messaging service for sending messages and notifications."
+    }
+]
+    
