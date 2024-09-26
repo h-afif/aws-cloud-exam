@@ -141,7 +141,12 @@
     },
     {
         "question": "Interview-style: What is the role of automation in DevOps?",
-        "options": [],
+        "options": [
+            "Automation reduces manual processes, improves efficiency, and helps maintain consistency across deployments.",
+            "Automation slows down the deployment process and increases manual intervention.",
+            "Automation is primarily used for troubleshooting issues in production.",
+            "Automation replaces the need for developers in the DevOps process."
+        ],
         "answer": "Automation reduces manual processes, improves efficiency, and helps maintain consistency across deployments.",
         "description": "Automation is a key principle of DevOps for enhancing delivery speed and reliability."
     },
@@ -165,7 +170,11 @@
     },
     {
         "question": "Interview-style: How would you implement a blue/green deployment strategy in AWS?",
-        "options": [],
+        "options": [
+            "By using AWS CloudFormation to create separate stacks for blue and green environments.",
+            "By using AWS CodeDeploy to manage deployments to separate environments and redirecting traffic with Elastic Load Balancers.",
+            "By creating two separate EC2 instances and manually switching traffic between them."
+        ],
         "answer": "By using AWS CodeDeploy to manage deployments to separate environments and redirecting traffic with Elastic Load Balancers.",
         "description": "Blue/green deployments minimize downtime and reduce risk."
     },
@@ -189,7 +198,12 @@
     },
     {
         "question": "Interview-style: How do you handle logging in a DevOps environment?",
-        "options": [],
+        "options": [
+            "By centralizing logs using Amazon CloudWatch Logs and leveraging log analysis tools.",
+            "By logging only critical errors in application code.",
+            "By using a local file system for log storage.",
+            "By sending logs directly to the application owners."
+        ],
         "answer": "By centralizing logs using Amazon CloudWatch Logs and leveraging log analysis tools.",
         "description": "Centralized logging helps in monitoring and troubleshooting applications."
     },
@@ -213,7 +227,12 @@
     },
     {
         "question": "Interview-style: How can you reduce deployment time in a DevOps pipeline?",
-        "options": [],
+        "options": [
+            "By implementing manual testing and reviews",
+            "By increasing server capacity and resources",
+            "By implementing parallel processing, automation, and optimizing the CI/CD workflow.",
+            "By reducing the number of features in each release"
+        ],
         "answer": "By implementing parallel processing, automation, and optimizing the CI/CD workflow.",
         "description": "Reducing deployment time enhances delivery speed and efficiency."
     },
@@ -237,7 +256,7 @@
     },
     {
         "question": "Interview-style: What are the best practices for managing configuration in AWS?",
-        "options": [],
+        "options": ["Store configuration in S3", "Embed configuration in code", "Use AWS Secrets Manager", "Use AWS Systems Manager Parameter Store or AWS Secrets Manager"],
         "answer": "Use AWS Systems Manager Parameter Store or AWS Secrets Manager for managing application configuration and secrets.",
         "description": "Best practices include using managed services for configuration management."
     },
