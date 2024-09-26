@@ -24,12 +24,6 @@
         "description": "Amazon SageMaker Autopilot automatically builds, trains, and tunes machine learning models based on the provided data."
     },
     {
-        "question": "Interview-style: How do you monitor and evaluate the performance of a machine learning model in AWS?",
-        "options": [],
-        "answer": "Use Amazon CloudWatch for logging metrics and AWS SageMaker Model Monitor for ongoing performance monitoring.",
-        "description": "Monitoring involves using tools like CloudWatch and SageMaker Model Monitor to track performance metrics and identify issues."
-    },
-    {
         "question": "True or False: Amazon Rekognition can be used to analyze and recognize text within images.",
         "options": ["True", "False"],
         "answer": "True",
@@ -52,12 +46,6 @@
         "options": ["A training tool for data scientists", "A racing car powered by reinforcement learning", "A service for managing AWS resources", "A database for machine learning models"],
         "answer": "A racing car powered by reinforcement learning",
         "description": "AWS DeepRacer is a 1/18th scale race car that gives developers a hands-on way to get started with reinforcement learning."
-    },
-    {
-        "question": "Interview-style: What is the difference between supervised and unsupervised learning?",
-        "options": [],
-        "answer": "Supervised learning involves training a model on labeled data, while unsupervised learning involves finding patterns in data without labeled outcomes.",
-        "description": "Understanding these learning paradigms is crucial for selecting the right approach for your machine learning task."
     },
     {
         "question": "True or False: Amazon Translate provides real-time translation capabilities.",
@@ -90,12 +78,6 @@
         "description": "Amazon SageMaker facilitates the deployment of machine learning models into production environments."
     },
     {
-        "question": "Interview-style: What steps would you take to handle data preprocessing for a machine learning model?",
-        "options": [],
-        "answer": "Clean the data, handle missing values, normalize or standardize features, and perform feature engineering.",
-        "description": "Data preprocessing is crucial for improving the performance of machine learning models."
-    },
-    {
         "question": "True or False: AWS DeepLens is a service that allows for the deployment of deep learning models to edge devices.",
         "options": ["True", "False"],
         "answer": "True",
@@ -118,12 +100,6 @@
         "options": ["Supervised learning", "Unsupervised learning", "Reinforcement learning", "None of the above"],
         "answer": "Supervised learning",
         "description": "Amazon Rekognition uses supervised learning techniques to analyze and recognize images and videos."
-    },
-    {
-        "question": "Interview-style: How can you improve the accuracy of a machine learning model?",
-        "options": [],
-        "answer": "Experiment with feature engineering, use a larger dataset, tune hyperparameters, and select the right model architecture.",
-        "description": "Improving model accuracy often requires a combination of strategies."
     },
     {
         "question": "True or False: Amazon Forecast can only make predictions for time series data with regular intervals.",
@@ -150,12 +126,6 @@
         "description": "Amazon SageMaker provides Jupyter notebook instances for developing and training machine learning models."
     },
     {
-        "question": "Interview-style: What considerations should you have when selecting a machine learning model?",
-        "options": [],
-        "answer": "Consider the problem type, dataset size, required accuracy, interpretability, and computational resources.",
-        "description": "Choosing the right model involves evaluating multiple factors that affect performance."
-    },
-    {
         "question": "True or False: Amazon SageMaker offers built-in algorithms for training machine learning models.",
         "options": ["True", "False"],
         "answer": "True",
@@ -178,12 +148,6 @@
         "options": ["Analyzing customer behavior", "Detecting fraudulent online activities", "Translating documents", "Building recommendation systems"],
         "answer": "Detecting fraudulent online activities",
         "description": "Amazon Fraud Detector uses machine learning to identify potential fraudulent activities in real-time."
-    },
-    {
-        "question": "Interview-style: How would you handle bias in a machine learning model?",
-        "options": [],
-        "answer": "Identify and analyze sources of bias in training data, retrain with balanced data, and continuously monitor model predictions.",
-        "description": "Addressing bias is crucial for ensuring fairness and accuracy in machine learning applications."
     },
     {
         "question": "True or False: Amazon Transcribe is used for converting audio files into text.",
@@ -226,12 +190,6 @@
         "options": ["Real-time data streaming", "Business intelligence and data visualization", "Machine learning model training", "Audio analysis"],
         "answer": "Business intelligence and data visualization",
         "description": "Amazon QuickSight is a business analytics service that provides data visualization and business intelligence capabilities."
-    },
-    {
-        "question": "Interview-style: How do you handle overfitting in a machine learning model?",
-        "options": [],
-        "answer": "Use techniques like cross-validation, regularization, and pruning, and ensure a proper balance between training and validation datasets.",
-        "description": "Mitigating overfitting is essential for improving model generalization."
     },
     {
         "question": "Fill in the blank: _________ is the service that provides data labeling for training machine learning models.",
