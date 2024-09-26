@@ -519,12 +519,6 @@
         "description": "AWS Elastic Beanstalk simplifies the deployment and management of applications."
     },
     {
-        "question": "Interview-style: How do you ensure high availability in AWS?",
-        "options": [],
-        "answer": "By using multi-AZ deployments and load balancers to distribute traffic across healthy instances.",
-        "description": "High availability is crucial for minimizing downtime and ensuring reliability."
-    },
-    {
         "question": "Which service allows you to automate server provisioning and configuration management?",
         "options": ["AWS OpsWorks", "AWS CloudFormation", "AWS Lambda", "AWS CodeDeploy"],
         "answer": "AWS OpsWorks",
@@ -541,12 +535,6 @@
         "options": ["Centralizing security alerts", "Managing user permissions", "Provisioning resources", "Monitoring applications"],
         "answer": "Centralizing security alerts",
         "description": "AWS Security Hub aggregates security findings from various AWS services."
-    },
-    {
-        "question": "Interview-style: How do you manage DevOps culture in your organization?",
-        "options": [],
-        "answer": "By fostering collaboration between development and operations teams and implementing CI/CD practices.",
-        "description": "DevOps culture promotes faster delivery and better collaboration."
     },
     {
         "question": "Which service is best for real-time data processing?",
@@ -567,12 +555,6 @@
         "description": "AWS CodePipeline automates the build, test, and deployment phases of your application."
     },
     {
-        "question": "Interview-style: How would you handle secrets management in AWS?",
-        "options": [],
-        "answer": "By using AWS Secrets Manager or AWS Systems Manager Parameter Store for storing sensitive data.",
-        "description": "Secrets management is crucial for keeping sensitive data secure."
-    },
-    {
         "question": "Which AWS service allows for automated serverless backups?",
         "options": ["AWS Backup", "AWS Lambda", "Amazon S3", "AWS CodeDeploy"],
         "answer": "AWS Backup",
@@ -589,12 +571,6 @@
         "options": ["Security assessment", "Monitoring resources", "Load balancing", "Automated backups"],
         "answer": "Security assessment",
         "description": "AWS Inspector assesses applications for vulnerabilities and deviations from best practices."
-    },
-    {
-        "question": "Interview-style: How do you manage compliance in AWS?",
-        "options": [],
-        "answer": "By using AWS Artifact for compliance documentation and implementing necessary controls.",
-        "description": "Managing compliance ensures that services meet regulatory requirements."
     },
     {
         "question": "Which service provides a way to set up a private network?",
@@ -615,12 +591,6 @@
         "description": "AWS CloudFormation allows you to model and set up your Amazon Web Services resources using templates."
     },
     {
-        "question": "Interview-style: How do you implement logging and monitoring in AWS?",
-        "options": [],
-        "answer": "By using Amazon CloudWatch for monitoring and AWS CloudTrail for logging API calls.",
-        "description": "Logging and monitoring are essential for operational visibility and troubleshooting."
-    },
-    {
         "question": "Which AWS service is designed for event-driven applications?",
         "options": ["AWS Lambda", "Amazon EC2", "Amazon RDS", "AWS CodePipeline"],
         "answer": "AWS Lambda",
@@ -637,11 +607,6 @@
         "options": ["DNS management", "Load balancing", "Monitoring resources", "Database management"],
         "answer": "DNS management",
         "description": "AWS Route 53 is a scalable domain name system (DNS) web service."
-    },
-    {
-        "question": "Interview-style: How do you ensure data security in AWS?",
-        "options": [],
-        "answer": "By using encryption, IAM policies, and monitoring services to protect data."
     },
     {
         "question": "Which service is best for managing API gateways?",
@@ -662,12 +627,6 @@
         "description": "AWS Budgets helps you set custom cost and usage budgets for your account."
     },
     {
-        "question": "Interview-style: How do you handle disaster recovery in AWS?",
-        "options": [],
-        "answer": "By implementing backup strategies and using services like AWS Backup and Amazon S3 for recovery.",
-        "description": "Disaster recovery ensures business continuity in the event of failure."
-    },
-    {
         "question": "Which AWS service allows for secure file sharing?",
         "options": ["Amazon S3", "AWS Lambda", "AWS EC2", "Amazon RDS"],
         "answer": "Amazon S3",
@@ -684,12 +643,6 @@
         "options": ["Evaluate architecture", "Monitor applications", "Manage user permissions", "Backup resources"],
         "answer": "Evaluate architecture",
         "description": "AWS Well-Architected Tool helps evaluate cloud architectures against best practices."
-    },
-    {
-        "question": "Interview-style: How do you optimize costs in AWS?",
-        "options": [],
-        "answer": "By using cost management tools, rightsizing instances, and leveraging reserved instances.",
-        "description": "Cost optimization helps to manage expenses effectively."
     },
     {
         "question": "Which service is used for migrating databases to AWS?",
@@ -710,12 +663,6 @@
         "description": "AWS Glue is a fully managed ETL (extract, transform, load) service for data cataloging."
     },
     {
-        "question": "Interview-style: How do you manage version control in AWS?",
-        "options": [],
-        "answer": "By using AWS CodeCommit for source control and managing repositories.",
-        "description": "Version control is essential for collaboration and tracking changes."
-    },
-    {
         "question": "Which service is best for migrating applications to AWS?",
         "options": ["AWS Application Migration Service", "AWS Lambda", "Amazon EC2", "AWS Elastic Beanstalk"],
         "answer": "AWS Application Migration Service",
@@ -732,12 +679,6 @@
         "options": ["Content delivery network", "Database management", "Monitoring resources", "Backup solutions"],
         "answer": "Content delivery network",
         "description": "Amazon CloudFront is a fast content delivery network (CDN) service for distributing content."
-    },
-    {
-        "question": "Interview-style: How do you secure your AWS account?",
-        "options": [],
-        "answer": "By enabling multi-factor authentication and following best security practices.",
-        "description": "Account security is vital to protect resources from unauthorized access."
     },
     {
         "question": "Which AWS service provides a serverless framework for building applications?",
