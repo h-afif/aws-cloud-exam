@@ -264,16 +264,20 @@ button.retake-btn:hover {
     background-color: #0056b3;
 }
 
+/* Correct Answer Text */
 .highlight-green {
-    background-color: lightgreen; /* Change this color as needed */
+    color: #28a745; /* Green text for correct answer */
     font-weight: bold;
-    padding: 5px;
+    padding: 5px; /* Optional: Padding for spacing */
+    background-color: transparent; /* Remove background color */
 }
 
+/* Incorrect Answer Text */
 .highlight-red {
-    background-color: lightcoral; /* Change this color as needed */
+    color: #dc3545; /* Red text for incorrect answer */
     font-weight: bold;
-    padding: 5px;
+    padding: 5px; /* Optional: Padding for spacing */
+    background-color: transparent; /* Remove background color */
 }
 
 /* Responsive Styles */
