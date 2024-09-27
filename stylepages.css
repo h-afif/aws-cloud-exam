@@ -257,7 +257,7 @@ button.retake-btn {
     border-radius: 5px;
     cursor: pointer;
     display: block;
-    margin: 20px auto;
+    margin: auto auto;
 }
 
 button.retake-btn:hover {
