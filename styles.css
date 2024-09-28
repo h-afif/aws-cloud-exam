@@ -31,7 +31,7 @@ header h1 {
 header p {
     font-size: 1.2rem; /* Adjusts the font size for readability */
     line-height: 2; /* Increases line spacing for better readability */
-    color: #333; /* Sets the text color */
+    color: white; /* Sets the text color */
     margin: 20px 0; /* Adds vertical space around the paragraph */
 }
 
