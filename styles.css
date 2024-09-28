@@ -34,9 +34,6 @@ header p {
     margin: 20px 0; /* Adds vertical space around the paragraph */
 }
 
-
-
-
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
