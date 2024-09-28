@@ -101,7 +101,7 @@ header p {
 }
 
 footer {
-    color: black; /* Change footer text color to black for contrast */
+    color: white; /* Change footer text color to black for contrast */
     text-align: center;
     padding: 20px;
     font-size: 14px;
