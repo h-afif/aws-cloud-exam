@@ -11,6 +11,8 @@ body {
     min-height: 100vh;
     justify-content: space-between;
     background-color: #CCE5FF; /* Light gray background for the whole page */
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 header {
