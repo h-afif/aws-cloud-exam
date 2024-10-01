@@ -162,7 +162,7 @@ footer {
         font-size: 10px;
     }
     #ad-container {
-        max-width: 100%;         /* Full width for phones */
+        max-width: 90%;         /* Full width for phones */
         padding: 0;              /* Remove padding to use full width */
         margin: 10px 0;          /* Less margin for smaller screens */
     }
