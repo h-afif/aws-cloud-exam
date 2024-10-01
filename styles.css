@@ -109,6 +109,24 @@ footer {
     width: 100%;
 }
 
+/* Style for Adsterra Ad Container */
+#ad-container {
+    width: 100%;              /* Full width of the container */
+    max-width: 728px;          /* Maximum width (common for banner ads) */
+    margin: 20px auto;         /* Center the ad and add some margin */
+    text-align: center;        /* Center align the content inside the container */
+}
+
+#ad-container div {
+    width: 100%;               /* Full width for the ad content */
+    height: auto;              /* Auto height depending on the ad content */
+    display: inline-block;     /* Ensure the div behaves as an inline element */
+    background-color: #f9f9f9; /* Optional: light background color to make ad stand out */
+    padding: 10px;             /* Optional: padding around the ad */
+    border: 1px solid #ddd;    /* Optional: subtle border for the ad container */
+    border-radius: 5px;        /* Rounded corners */
+}
+
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) { /* Tablet and below */
     .container {
@@ -123,6 +141,9 @@ footer {
     }
     footer {
         font-size: 10px;
+    }
+    #ad-container {
+        max-width: 100%;      /* Make the ad container responsive for mobile devices */
     }
 }
 
@@ -139,5 +160,15 @@ footer {
     }
     footer {
         font-size: 10px;
+    }
+    #ad-container {
+        max-width: 100%;         /* Full width for phones */
+        padding: 0;              /* Remove padding to use full width */
+        margin: 10px 0;          /* Less margin for smaller screens */
+    }
+
+    #ad-container div {
+        padding: 5px;            /* Reduce padding for better fit on small screens */
+        font-size: 14px;         /* Optional: smaller text for phones */
     }
 }
