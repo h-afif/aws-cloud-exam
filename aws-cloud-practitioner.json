@@ -673,7 +673,7 @@
             "Both are serverless services with no need for underlying infrastructure management.",
             "AWS Lambda offers dedicated hardware, while EC2 is completely event-driven."
         ],
-        "answer": "Amazon EC2 provides virtual servers, allowing full control over the underlying hardware, whereas AWS Lambda is a serverless compute service that automatically scales based on demand.",
+        "answer": "Amazon EC2 provides virtual servers, while AWS Lambda automatically scales code execution.",
         "description": "Amazon EC2 offers flexibility for running virtual servers, while AWS Lambda focuses on running code without managing infrastructure."
     },
     {
