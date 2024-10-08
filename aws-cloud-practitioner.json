@@ -732,7 +732,7 @@
     },
     {
         "question": "Interview-style: How would you design a fault-tolerant application in AWS?",
-        "options": ["Use a single Availability Zone", "Use multiple Availability Zones", "Use only AWS Lambda", "Use only Amazon EC2"],
+        "options": ["Use a single Availability Zone", "Use multiple Availability Zones", "Use only AWS Lambda", "Use only Amazon EC2", "Use multiple Availability Zones, Auto Scaling, Elastic Load Balancers, and services like Amazon RDS with Multi-AZ deployments."],
         "answer": "Use multiple Availability Zones, Auto Scaling, Elastic Load Balancers, and services like Amazon RDS with Multi-AZ deployments.",
         "description": "Designing fault tolerance involves using services that automatically scale and recover from failure."
     },
